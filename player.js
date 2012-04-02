@@ -127,7 +127,8 @@ window.onload = function() {
           // but Explorer does not still support it ATTOW
           var html = '', format = ['ogg','mp3'];
           for (var i = 0; i < 2; i++) {
-            html += '<source src="audio/' + lang + '/'
+            html += '<source src="http://web.tiscali.it/insegnanteitaliano/audio/'
+              + lang + '/'
               /* Windows NTFS forbids the following characters: " * : < > ? \ / |
                  Trim or replace the ones we happen to use,
                  for now only replace ? with Q */
