@@ -1,0 +1,57 @@
+/*
+
+CSS stylesheet to highlight the structure of an HTML document.
+Copyright 2012 Antonio Bonifati
+
+If you find this style sheet useful while developing your layouts,
+please consider making a little personal donation via Paypal.
+Just visit my blog at http://antonio-bonifati.blogspot.com and click
+the Donate button. Every little helps to finance my studies! Grazie!
+
+*/
+
+
+/*
+Style some block-level elements that define the overall structure. Please let
+me know if a structural tag you would like to always be highlighted is missing!
+*/
+
+address, article, aside, body, canvas, div, footer, form, header, hgroup, nav,
+map, object, section, table, tfoot tr td, th, thead tr td {
+  border: thin dashed;
+  margin: 1%;
+  counter-reset: depth;
+}
+
+body { counter-reset: depth; }
+
+/* Display the tag name to make some block level elements more visible.
+
+   I could get a tag nesting level as a string like 1+1+1 for 3, by using CSS
+   counters, but there is no way in CSS to evaluate this string and turn it
+   into a color code. I'm missing an eval function in CSS!
+
+   :before { ... counter-increment: depth; ... }
+   address:before { ... counters(depth, "+") ... }
+
+   So to colorize boxes I am forced to use JavaScript :(
+*/
+:before {
+  text-align: center;
+  display: block;
+  font-style: normal;
+}
+address:before { content:"address" }
+article:before { content:"article" }
+aside:before { content:"aside" }
+body:before { content:"body" }
+canvas:before { content:"canvas" }
+div:before { content:"div" }
+footer:before { content:"footer" }
+form:before { content:"form" }
+header:before { content:"header" }
+hgroup:before { content:"hgroup" }
+nav:before { content:"nav" }
+map:before { content:"map" }
+object:before { content:"map" }
+section:before { content:"section" }

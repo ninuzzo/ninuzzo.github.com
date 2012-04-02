@@ -1,0 +1,104 @@
+body {
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  margin: 1em;
+}
+
+#translations {
+  float: left;
+}
+
+#audio_controls {
+  float: right;
+  font-size: 0.6em;
+}
+
+#comments {
+  clear: left;
+}
+
+ul.compact {
+  list-style-type: none;
+  padding: 0;
+}
+
+.compact li, .compact form {
+  display: inline;
+}
+
+/*
+This is a shortcut for:
+
+.pipes li:before {
+  content: " | ";
+}
+
+.pipes li:first-child:before {
+  content: "";
+}
+*/
+
+.pipes li + li:before {
+    content: " | ";
+}
+
+.center {
+  text-align: center;
+}
+
+.h1 {
+  font: 2em/1em Corsiva, "Lucida Handwriting", script;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  border-top: solid #e7ce00 medium;
+  border-bottom: dotted #e7ce00 thin;
+}
+
+.h2 {
+  font: bold italic 1.5em/0.75em "Times New Roman", "MS Serif", "New York", serif;
+  text-align: center;
+  border-top: solid #cee700 medium;
+  border-bottom: dotted #cee700 thin;
+}
+
+.h3 {
+  font: bold italic 1.17em/0.56em "Times New Roman", "MS Serif", "New York", serif;
+}
+
+footer {
+  font-size: 0.8em;
+}
+
+article footer {
+  border-top: dotted #cee700 thin;
+}
+
+footer form, footer div {
+  display: inline;
+}
+
+.noborder {
+  border: none;
+}
+
+/* For missing flags. */
+dd ul {
+  list-style-type: square;
+}
+
+dt[lang="en"] ul {
+  /* Unfortunately there is no good way to set the size of images used as list
+     bullets and using svg results in either too large or too small bullets:
+     http://stackoverflow.com/questions/7775594/css-list-style-image-size */
+  list-style-image: url(fotw/gb.png);
+}
+
+/* TODO add other countries from here: http://hewgill.com/flags/ */
+
+dd[lang="de"] ul {
+  list-style-image: url(fotw/de.png);
+}
+
+dd[lang="it"] ul {
+  list-style-image: url(fotw/it.png);
+}
