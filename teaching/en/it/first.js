@@ -16,7 +16,7 @@ California, 94041, USA.
 var title="Italian beginner's first lesson: loan words, cognates and correct vowel pronunciation",
   date='2012-03-30', lk='en', l1='it', lesson=
 [
- ['def', "a", "a", "Second-most common letter in Italian. 'a' is always pronounced similarly to 'a' in father (long), body (short), or the 'a' in bite or now (short), never like the 'a's in alpha, make, bear. 'a' in Italian is central, meaning the tongue is positioned halfway in your mouth, neither at the front like the 'a' of bite nor at the back like the 'a' of father."],
+ ['def', "a", "a", "Second-most common letter in Italian. 'a' is always pronounced similarly to 'a' in father (long), body (short), or the 'a' in bite or now (short), never like the 'a's in alpha, make, bear. 'a' in Italian is central, meaning tongue is positioned halfway in your mouth, neither at the front like the 'a' of bite nor at the back like the 'a' of father."],
  ['def', "to", "a", "a is also an Italian word, meaning 'to', like the 'to' in 'going to'."],
  ['tra', "pasta, dough, pastry, paste", "pasta", "One Italian word has all these meanings. Stressed vowels in syllables ending with a vowel, like pà of pà-sta, can *optionally* be long; unstressed vowels like the second a of pà-sta are always short. Anyway, vowel length is never used to distinguish different words, but accent sometimes is. For instance, see next slides."],
  ['def', "pope", "papa"],
