@@ -45,7 +45,7 @@ window.onload = function() {
   function main() {
     var step, steps = lesson.length, lname = {
       // TODO: add other languages here.
-      de: 'German', it: 'Italian'
+      de: 'German', es: 'Spanish', it: 'Italian'
     };
 
     function format_iso_date(date) {
@@ -56,7 +56,7 @@ window.onload = function() {
         + date.getFullYear();
     }
 
-    function goto(newstep) {
+    function go_to(newstep) {
       function s2a(value) {
         return value instanceof Array ? value : [value];
       }
@@ -256,7 +256,7 @@ window.onload = function() {
         return html;
       }
 
-      // function goto begins.
+      // function go_to begins.
 
       // Update controls.
       // + needed to make sure step remains a number!
@@ -312,23 +312,23 @@ window.onload = function() {
 
     // Navigation bar.
     $('first').onclick = function () {
-      goto(1);
+      go_to(1);
       return false;	// This avoids a page reload.
     };
-    $('previous').onclick = function () { goto(step - 1); return false; };
-    $('step_form').onsubmit = function () { goto($('step').value); return false; };
+    $('previous').onclick = function () { go_to(step - 1); return false; };
+    $('step_form').onsubmit = function () { go_to($('step').value); return false; };
     $('step').onclick = function () { this.select(); };
     $('step').onblur = function () {
       if (this.value < 1 || this.value > steps) {
         this.value = step;
       }
     };
-    $('next').onclick = function () { goto(step + 1); return false; };
-    $('last').onclick = function () { goto(steps); return false; };
+    $('next').onclick = function () { go_to(step + 1); return false; };
+    $('last').onclick = function () { go_to(steps); return false; };
 
     // Other.
-    $('l1').onchange = function() { goto(step); };
-    if (tandem) $('l2').onchange = function() { goto(step); };
+    $('l1').onchange = function() { go_to(step); };
+    if (tandem) $('l2').onchange = function() { go_to(step); };
 
     // Initialize HTML.
     $('step').min = 1;
@@ -340,7 +340,7 @@ window.onload = function() {
     $('date').textContent = format_iso_date(date);
 
     // Display first slide.
-    goto(1);
+    go_to(1);
   } // main
 
   // Make sure the data file is loaded before the main player code.
