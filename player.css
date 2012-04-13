@@ -99,6 +99,10 @@ dd[lang="de"] ul {
   list-style-image: url(fotw/de.png);
 }
 
+dd[lang="es"] ul {
+ list-style-image: url(/imgs/fotw/es.png);
+}
+
 dd[lang="it"] ul {
   list-style-image: url(fotw/it.png);
 }
