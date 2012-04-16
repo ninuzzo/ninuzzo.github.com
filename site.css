@@ -1,0 +1,324 @@
+/*
+This style sheet is copyrighted Antonio Bonifati 2012 and licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+*/
+
+/** Overall layout and style. **/
+
+/* Get rid of default margin and paddings and font sizes some elements have.
+   We want to set them explicitely, because they are inconsistent between
+   different browsers. In particular we use all relative units (EMs or %) so
+   that you can increase or decrease all fonts just by changing the base font
+   size here. */
+* {
+ margin: 0;
+ padding: 0;
+ font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+
+/* For old browsers with poor HTML5 support */
+header, section, footer, aside, nav, article, hgroup {
+ display: block;
+}
+
+/* http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
+html {
+ height: 100%;
+}
+
+body {
+ /* This rules are both needed to center the whole site. */
+ width: 80%;
+ margin: 5% auto;
+
+ background: #009246; /* Old browsers */
+ background: -webkit-linear-gradient(#009246,#52c688); /* Safari and Chrome */
+ background: -moz-linear-gradient(#009246,#52c688); /* Firefox */
+ background: -o-linear-gradient(#009246,#52c688); /* Opera */
+ background: -ms-linear-gradient(#009246,#52c688); /* IE */
+ background: linear-gradient(#009246,#52c688); /* W3C */
+}
+
+#top_header h2 {
+ color: #fff;
+ text-transform: uppercase;
+}
+
+#top_content {
+ background: #fff;
+ border: .063em solid #800000;
+ padding: 2%;
+ /* Needed to make the white background encompass all floated content.
+    See: http://www.quirksmode.org/css/clearing.html */
+ overflow: hidden;
+ width: 96%;
+}
+
+#top_article {
+ padding: 1.25em;
+}
+
+#top_article_side {
+ /* If width is left out, this aside takes as much
+    space as needed, which can be too much. */
+ width: 16em;
+ float: right;
+ clear: right;
+ background: #ce2b37;
+ color: #fff;
+ border-radius: 1em;
+ padding: 1.875em;
+ margin: 0 0 1em 1em;
+}
+
+#top_article_side li {
+ margin-left: 1.875em;
+}
+
+#top_article_menu {
+ float: right;
+ clear: right;
+ border-radius: 1em;
+ padding: 1em 0.8em;
+ margin: 0.8em 0 0.8em 1em;
+ background: #ce2b37;
+}
+
+#top_article_menu a {
+ color: #fff;
+ text-decoration: none;
+ display: block;
+ width: 100%;
+ height: 100%;
+ padding: .063em;
+ border-bottom: .063em dotted #fff;
+}
+
+/* Trick to make block elements flow as line/inline elements do. I am not using
+   display: inline-block; because it clears the float when zooming in, leaving
+   a lot of blank space to the left of the floated element.
+   Unfortunately, at very high zoom levels, overflow: auto makes horizontal
+   scrollbars appear. But the overflow: hidden alternative isn't better either.
+   Remember that the overflow property is not inherited, so it has to be set for
+   each element we want to clip. E.g. you cannot set it to header for all
+   contained h1, h2, etc. */
+/* TODO: add other elements here as needed. */
+#top_article h1 {
+ overflow: auto;
+}
+
+button {
+ padding: .063em .375em;
+}
+
+.h2 {
+ font-size: 1.5em;
+ border-bottom: .063em dotted #333;
+ padding-bottom: .25em;
+ margin-bottom: .5em;
+}
+
+.h3 {
+ font-size: 1.17em;
+ font-weight: bolder;
+}
+
+.in_a_row {
+ float: left;
+ margin-right: 1em;
+}
+
+.newline {
+ clear: both;
+}
+
+#side_tab {
+ position: fixed; 
+ top: 20%;
+ right: 0;
+ /* Setting the z-index as negative and doing that only here seems to be the
+    only simsolution that is both simple and works. Hope it will not knock out
+    links with some browsers, but it shouldn't according to my understand of
+    how stacking layers and event works! */
+ z-index: -1;
+ padding: .5em;
+ background-color: #fff;
+ border: .063em solid #800000;
+ border-right: none;
+ border-top-left-radius: 1em;
+ border-bottom-left-radius: 1em;
+ opacity: .8;
+}
+
+#side_tab:hover {
+ opacity: 1;
+ padding-right: .625em;
+ padding-left: .625em;
+}
+
+#side_tab ul, #top_article_menu ul {
+ list-style-type: none;
+}
+
+#top_footer {
+ clear: both;
+ padding: .938em 0;
+}
+
+#top_footer div {
+ width: 44em;
+ margin: auto;
+}
+
+/* See: http://stackoverflow.com/questions/5848609/vertically-align-multiple-lines-beside-a-floated-image */
+
+#top_footer p {
+ display: table-cell;
+ width: 44em;
+ height: 31px;
+ vertical-align: middle;
+}
+
+#top_footer p img {
+ float: left;
+ padding-right: 10px;
+}
+
+/* Turn off the border on all your images. We do not set the border of all
+   elements to 0 at the beginning, because we want to keep default the border
+   style for buttons. */
+img, input[type="image"] {
+ border: none;
+}
+
+p {
+ margin: 1.12em 0;
+}
+
+button {
+ margin: .125em;
+}
+
+.center {
+ text-align: center;
+}
+
+#top_article footer {
+ font-size: 0.8em;
+ color: #333;
+}
+
+dt {
+ font-weight: bolder;
+}
+
+dd p {
+ margin-top: 0;
+}
+
+em {
+ font-style: italic;
+}
+
+b {
+ font-weight: bolder;
+}
+
+time {
+ color: #800000;
+ border: .063em solid #ce2b37;
+ border-radius: .25em .5em .25em .5em;
+ padding-left: .125em;
+ padding-right: .125em;
+}
+
+/** Link style. **/
+
+/* Unvisited and visited link. */
+a:link, a:visited {
+ color: #009246;
+}
+
+/* Selected link. */
+a:active {
+ color: #ce2b37;
+}
+
+#top_article_side a:link, #top_article_side a:visited {
+ color: #fff;
+}
+
+#top_article_side a:active {
+ color: #000;
+}
+
+#top_article_menu a:link, #top_article_menu a:visited {
+ color: #fff;
+}
+
+#top_article_menu a:hover {
+ color: #009246;
+ background: #fff;
+}
+
+#top_footer a:link, #top_footer a:visited {
+ color: #000;
+}
+
+#top_footer a:active {
+ color: #fff;
+}
+
+#side_tab a {
+ text-decoration: none;
+}
+
+#side_tab nav li:nth-child(1) a {
+ color: #009246;
+}
+
+#side_tab nav li:nth-child(2) a {
+ color: #333;
+}
+
+#side_tab nav li:nth-child(3) a {
+ color: #ce2b37;
+}
+
+
+/** Main menu tab-like style. **/
+
+#top_menu ul, ul.compact {
+ list-style-type: none;
+ margin-top: 1.25em;
+}
+
+#top_menu li, .compact li, .compact form {
+ display: inline; /* inline-block does not make the bottom borders to overlap! */
+}
+
+#top_menu a {
+ text-decoration: none;
+ color: #fff;
+ border: .063em solid #800000;
+ border-top-right-radius: .5em;
+ border-top-left-radius: .5em;
+ background: #ce2b37;
+ padding: .438em .313em 0 .313em; /* padding-bottom should be left to 0! */
+}
+
+#top_menu a.selected {
+ color: #009246;
+ background: #fff;
+ /* This border will overlap with the #top_div border, if applied to a (not to li) */
+ border: .063em solid #800000;
+ border-bottom-color: #fff;
+}
+
+#top_menu a:hover {
+ color: #009246;
+ background: #fff;
+ /* This border will overlap with the #top_div border, if applied to a (not to li) */
+ border: .063em solid #800000;
+ border-bottom-color: #fff;
+}

@@ -1,108 +1,73 @@
-body {
-  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
-  margin: 1em;
-}
+/** Language tandem and coaching player style. **/
 
-#translations {
-  float: left;
+/* id identifiers are prefixed with pl_, which stands as a sort of
+   namespace identifier, in order to make name collisions less likely. */
+
+#pl_translations {
+ float: left;
 }
 
 #audio_controls {
-  float: right;
-  font-size: 0.6em;
+ float: right;
+ clear: right;
+ font-size: 0.7em;
+ padding: 1.12em 0 1.12em 1.12em;
 }
 
-#comments {
-  clear: left;
+#audio_controls fieldset {
+ padding-left: 1.12em;
+ padding-right: 1.12em;
 }
 
-ul.compact {
-  list-style-type: none;
-  padding: 0;
+#pl_comments {
+ clear: left;
 }
 
-.compact li, .compact form {
-  display: inline;
+#pl_translations dt {
+ margin: 1em 1em 0.5em 2em;
 }
 
-/*
-This is a shortcut for:
-
-.pipes li:before {
-  content: " | ";
+#pl_translations dd {
+ margin: 0.5em 1em 0.5em 2.5em;
 }
 
-.pipes li:first-child:before {
-  content: "";
-}
-*/
-
-.pipes li + li:before {
-    content: " | ";
+#pl_translations dd textarea {
+ vertical-align: bottom;
+ margin: 0 0 0 0;
+ border: 1px solid #ccc;
 }
 
-.center {
-  text-align: center;
+#pl_translations dd button {
+ vertical-align: bottom;
+ margin: 0 0 0 0.5em;
 }
 
-.h1 {
-  font: 2em/1em Corsiva, "Lucida Handwriting", script;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  border-top: solid #e7ce00 medium;
-  border-bottom: dotted #e7ce00 thin;
-}
-
-.h2 {
-  font: bold italic 1.5em/0.75em "Times New Roman", "MS Serif", "New York", serif;
-  text-align: center;
-  border-top: solid #cee700 medium;
-  border-bottom: dotted #cee700 thin;
-}
-
-.h3 {
-  font: bold italic 1.17em/0.56em "Times New Roman", "MS Serif", "New York", serif;
-}
-
-footer {
-  font-size: 0.8em;
-}
-
-article footer {
-  border-top: dotted #cee700 thin;
-}
-
-footer form, footer div {
-  display: inline;
-}
-
-.noborder {
-  border: none;
+#pl_definitions_l1 li, #pl_definitions_l2 li {
+ margin: 0.5em;
 }
 
 /* For missing flags. */
-dd ul {
-  list-style-type: square;
+#pl_translations dd ul {
+ list-style-type: square;
 }
 
-dt[lang="en"] ul {
-  /* Unfortunately there is no good way to set the size of images used as list
-     bullets and using svg results in either too large or too small bullets:
-     http://stackoverflow.com/questions/7775594/css-list-style-image-size */
-  list-style-image: url(fotw/gb.png);
+#pl_translations dt[lang="en"] ul {
+ /* Unfortunately there is no good way to set the size of images used as list
+    bullets and using svg results in either too large or too small bullets:
+    http://stackoverflow.com/questions/7775594/css-list-style-image-size */
+ list-style-image: url(/imgs/fotw/gb.png);
 }
 
 /* TODO add other countries from here: http://hewgill.com/flags/ */
 
-dd[lang="de"] ul {
-  list-style-image: url(fotw/de.png);
+#pl_translations dd[lang="de"] ul {
+ list-style-image: url(/imgs/fotw/de.png);
 }
 
-dd[lang="es"] ul {
- list-style-image: url(fotw/es.png);
+#pl_translations dd[lang="es"] ul {
+ list-style-image: url(/imgs/fotw/es.png);
 }
 
-dd[lang="it"] ul {
-  list-style-image: url(fotw/it.png);
+#pl_translations dd[lang="it"] ul {
+ list-style-image: url(/imgs/fotw/it.png);
 }

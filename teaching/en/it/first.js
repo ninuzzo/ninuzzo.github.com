@@ -75,5 +75,5 @@ var title="Italian beginner's first lesson: loan words, cognates and correct vow
  ['tra', "it is possible but (it is) not probable", ["è possibile ma non è probabile", "è possibile ma non probabile"]],
  ['tra', "it's not probable but (it is) possible", ["non è probabile ma è possibile", "non è probabile ma possibile"]],
  ['tra', "normally this/it isn't possible", ["normalmente, non è possibile", "non è normalmente possibile"]],
- ['com', "If you want to learn more book a personalized lesson with me on skype."],
+ ['com', 'This is just a computer reduction of my teaching methods. But computers are not really intelligent and thus no computer can teach you a language as well as a good teacher. If you want to really learn Italian, <a href="contact.html">book a personalized lesson with me</a>.'],
 ];

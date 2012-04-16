@@ -2,9 +2,9 @@
 
 Structural language learning and tandem method.
 A JavaScript computer program for coaching.
-Version of 31 Mar 2012.
+Version of 14 Apr 2012.
 
-Copyright (c) 2012 Antonio Bonifati http://ninuzzo.freehostia.com/about.html
+Copyright (c) 2012 Antonio Bonifati http://ninuzzo.github.com/about.html
 
 This work is licensed under the Creative Commons
 Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of
@@ -16,13 +16,15 @@ California, 94041, USA.
 
 // Convention: lk = language known; l1 = language 1; l2 = language 2 (tandems only)
 
-/* Drop this function definition if you are already
-   using a JavaScript library that defines it */
-function $(id) {
-  return document.getElementById(id);
+/* This is the only function that needs to be global. It has been prefixed
+   with pl_ hoping that will avoid any conflict with other JavaScript code */
+function pl_$(id) {
+  // Change CSS prefix pl_ here and in pl_check_ and pl_definitions_ below.
+  return document.getElementById('pl_' + id);
 }
 
-var sampa = {};
+/* This is the only global variable, prefixed with pl_. */
+var pl_sampa = {};
 
 window.onload = function() {
   // http://stackoverflow.com/questions/950087/include-javascript-file-inside-javascript-file
@@ -97,15 +99,15 @@ window.onload = function() {
       function play_definitions() {
         function get_definitions(lang) {
           // http://stackoverflow.com/questions/2430121/javascript-concatenate-multiple-nodelists-together
-          return [].slice.call($('definitions_' + lang)
+          return [].slice.call(pl_$('definitions_' + lang)
             .getElementsByTagName('audio'));
         }
 
         var definitions;
-        if ($('l1').checked) {
+        if (pl_$('l1').checked) {
           definitions = get_definitions('l1');
         }
-        if (tandem && $('l2').checked) {
+        if (tandem && pl_$('l2').checked) {
           if (definitions) {
             definitions.concat(get_definitions('l2'));
           } else {
@@ -139,7 +141,7 @@ window.onload = function() {
         }
 
         function reveal_definitions(lang_name) {
-          var definitions = $('definitions_' + lang_name);
+          var definitions = pl_$('definitions_' + lang_name);
         
           // Show the solution(s).
           definitions.style.display = 'block';
@@ -159,7 +161,7 @@ window.onload = function() {
           var sentence_sampa = '/', word = sentence.split(/\s+/);
           for (var i = 0; i < word.length; i++) {
             var word_sampa;
-            if (typeof (word_sampa = sampa[lang][trim_punctuation(word[i])])
+            if (typeof (word_sampa = pl_sampa[lang][trim_punctuation(word[i])])
               == 'undefined') {
               word_sampa = '?'; // Denotes a missing word pronunciation.
             }
@@ -200,22 +202,22 @@ window.onload = function() {
           html = '<dt lang="' + lang + '"><ul>';
         } else {
           html = '<dd lang="' + lang + '">';
-          if ((learning = $(lang_name).checked) && guess_mode) {
+          if ((learning = pl_$(lang_name).checked) && guess_mode) {
             html += '<textarea rows="2" cols="40" autofocus="" '
               + 'placeholder="speak your answer and optionally write it here in '
               + lname[lang] + ' and then compare"></textarea>'
-              + '<button id="check_' + lang_name + '">check</button>'
-              + '<ul id="definitions_' + lang_name + '" style="display: none">';
+              + '<button id="pl_check_' + lang_name + '">check</button>'
+              + '<ul id="pl_definitions_' + lang_name + '" style="display: none">';
             /* This trick allows me to use to attach an event handler without
                polluting the global namespace or having to generatore HTML code
                using boring DOM calls. */
             setTimeout(function () {
-              $('check_' + lang_name).onclick = function () {
+              pl_$('check_' + lang_name).onclick = function () {
                 reveal_definitions(lang_name);
               };
             }, 0);
           } else {
-            html += '<ul id="definitions_' + lang_name + '">';
+            html += '<ul id="pl_definitions_' + lang_name + '">';
           }
         }
 
@@ -230,7 +232,7 @@ window.onload = function() {
             var id = lang + i; // It just have to be unique in the page.
             html += '<audio id="' + id + '"'
               + (learning ? ' preload="auto"' : ' preload="none"')
-              + '>' + audio_source(sentence) + '</audio><button onclick="$(\''
+              + '>' + audio_source(sentence) + '</audio><button onclick="pl_$(\''
               + id + "').play()\" title='" + pronunciation(lang, sentences[i])
               + "'>" + sentences[i] + '</button>';
           }
@@ -260,22 +262,22 @@ window.onload = function() {
 
       // Update controls.
       // + needed to make sure step remains a number!
-      $('step').value = step = +newstep;
+      pl_$('step').value = step = +newstep;
 
       if (step == 1) {
-        $('first').disabled = true;
-        $('previous').disabled = true;
+        pl_$('first').disabled = true;
+        pl_$('previous').disabled = true;
       } else {
-        $('first').disabled = false;
-        $('previous').disabled = false;
+        pl_$('first').disabled = false;
+        pl_$('previous').disabled = false;
       }
 
       if (step == steps) {
-        $('next').disabled = true;
-        $('last').disabled = true;
+        pl_$('next').disabled = true;
+        pl_$('last').disabled = true;
       } else {
-        $('next').disabled = false;
-        $('last').disabled = false;
+        pl_$('next').disabled = false;
+        pl_$('last').disabled = false;
       }
 
       // Update content.
@@ -284,7 +286,7 @@ window.onload = function() {
         case 'tra':
           guess_mode = true;
         case 'def':
-        	$('translations').innerHTML = '<dl>' + define(lk, slide[1])
+        	pl_$('translations').innerHTML = '<dl>' + define(lk, slide[1])
             + define(l1, slide[2], guess_mode)
             + (tandem ? define(l2, slide[3], guess_mode) : '') + '</dl>';
           if (! guess_mode) {
@@ -293,12 +295,12 @@ window.onload = function() {
             setTimeout(function () { play_definitions(); }, 1 * 1000);
           }
 
-        	$('comments').innerHTML = comments(slide[tandem ? 4 : 3]);
+        	pl_$('comments').innerHTML = comments(slide[tandem ? 4 : 3]);
         break;
 
         case 'com':
-          $('translations').innerHTML = '';
-        	$('comments').innerHTML = comments(slide[1]);
+          pl_$('translations').innerHTML = '';
+        	pl_$('comments').innerHTML = comments(slide[1]);
         break;
 
         // TODO: implement other slide types here, if needed!
@@ -311,33 +313,40 @@ window.onload = function() {
     // Attach events.
 
     // Navigation bar.
-    $('first').onclick = function () {
+    pl_$('first').onclick = function () {
       go_to(1);
       return false;	// This avoids a page reload.
     };
-    $('previous').onclick = function () { go_to(step - 1); return false; };
-    $('step_form').onsubmit = function () { go_to($('step').value); return false; };
-    $('step').onclick = function () { this.select(); };
-    $('step').onblur = function () {
+    pl_$('previous').onclick = function () { go_to(step - 1); return false; };
+    pl_$('step_form').onsubmit = function () { go_to(pl_$('step').value); return false; };
+    pl_$('step').onclick = function () { this.select(); };
+    pl_$('step').onblur = function () {
       if (this.value < 1 || this.value > steps) {
         this.value = step;
       }
     };
-    $('next').onclick = function () { go_to(step + 1); return false; };
-    $('last').onclick = function () { go_to(steps); return false; };
+    pl_$('next').onclick = function () { go_to(step + 1); return false; };
+    pl_$('last').onclick = function () { go_to(steps); return false; };
 
     // Other.
-    $('l1').onchange = function() { go_to(step); };
-    if (tandem) $('l2').onchange = function() { go_to(step); };
+    pl_$('l1').onchange = function() { go_to(step); };
+    if (tandem) pl_$('l2').onchange = function() { go_to(step); };
 
     // Initialize HTML.
-    $('step').min = 1;
-    $('step').max = $('steps').textContent = steps;
-    $('ll1').textContent = lname[l1];
-    if (tandem) $('ll2').textContent = lname[l2];
-    $('title').textContent = title;
-    $('date').setAttribute('datetime', date);
-    $('date').textContent = format_iso_date(date);
+    pl_$('step').min = 1;
+    pl_$('step').max = pl_$('steps').textContent = steps;
+    pl_$('ll1').textContent = lname[l1];
+    if (tandem) {
+      var idx = pl_$('idx');
+      if (idx) {
+        idx.setAttribute('href', l1 + '.html');
+        idx.textContent = lname[l1] + '-' + lname[l2] + ' chat index';
+      }
+    }
+    if (tandem) pl_$('ll2').textContent = lname[l2];
+    pl_$('title').textContent = title;
+    pl_$('date').setAttribute('datetime', date);
+    pl_$('date').textContent = format_iso_date(date);
 
     // Display first slide.
     go_to(1);

@@ -1,0 +1,14 @@
+player.js
+player.css
+	Structural language learning and tandem method player
+
+site.css
+	Site-wide CSS
+
+structure.css
+	For debugging. Add a:
+	<link rel="stylesheet" href="structure.css" />
+	to use it.
+
+tz_clock.js
+	Simple digital JavaScript clock and visitor-to-author time zone converter

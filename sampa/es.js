@@ -15,7 +15,7 @@ California, 94041, USA.
 
 // Please see comment at the top of it.js
 
-sampa.es = {
+pl_sampa.es = {
   /* To sort this list in VIM use :'a,.sort i assuming you have marked the
      first line with ma and the current line is the last. You can also select
      the list typing V on the first line, then G 3k and type :sort i */

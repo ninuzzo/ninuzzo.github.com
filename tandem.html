@@ -1,62 +1,32 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8" />
-  <title>Language Tandem Coaching - Antonio Bonifati's structural method</title>
-  <!-- For debugging only: -->
-  <!--<link rel="stylesheet" href="structure.css" />-->
-  <link rel="stylesheet" href="player.css" />
-  <script src="player.js"></script>
- </head>
- <body>
-  <header>
-    <h1 class="h1">Language Tandem Coaching</h1>
-  </header>
-  <nav>
-   <ul class="compact pipes">
-    <li><a href="index.html">Chat index</a></li>
-    <li><a href="http://ninuzzo.freehostia.com/about.html">Email your questions,
-     corrections &amp; feedback</a></li>
-   </ul>
-  </nav>
-  <article>
-   <header>
-    <h1 class="h2" id="title"></h1>
-    <nav>
-     <ul class="compact center">
-      <li><button id="first" accesskey="f">&lt;&lt; <u>f</u>irst</button></li>
-      <li><button id="previous" accesskey="p">&lt; <u>p</u>revious</button></li>
-      <li>
-       <form id="step_form">
-        <input type="number" id="step" size="3" />&nbsp;/&nbsp;<span
-          id="steps"></span>
-        <button type="submit" accesskey="g"><u>g</u>o</button>
-       </form>
-      </li>
-      <li><button id="next" accesskey="n"><u>n</u>ext &gt;</button></li>
-      <li><button id="last" accesskey="l"><u>l</u>ast &gt;&gt;</button></li>
-     </ul>
-    </nav>
-   </header>
-   <section id="translations"></section>
-   <section id="audio_controls">
-    <form>
-     <fieldset>
-      <legend>I'm learning:</legend>
-      <p><input type="checkbox" id="l1" />
-       <label id="ll1" for="l1"></label></p>
-      <p><input type="checkbox" id="l2" checked="" />
-       <label id="ll2" for="l2"></label></p>
-     </fieldset>
-    </form>
-   </section>
-   <section id="comments"></section>
-   <footer>
-    <p>Chat date: <time id="date"></time></p>
-   </footer>
-  </article>
-  <footer>
-   <address><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="img/cc_by-nc-sa.png" /></a><br />Structural language learning method. A JavaScript computer program for tandem coaching by <a href="http://ninuzzo.freehostia.com/about.html" rel="author">Antonio Bonifati</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</address>
-  </footer>
- </body>
-</html>
+---
+layout: tandem
+level1: tandem
+tagline: exchange your mother tongue for Italian with me, gratis!
+---
+   <article id="top_article">
+    <header>
+     <nav id="top_article_menu">
+      <ul>
+       <li><a id="pl_idx"></a></li>
+       <li><a href="contact.html">Email your questions,<br />corrections &amp;
+        feedback</a></li>
+      </ul>
+     </nav>{% include player.html %}
+    </header>
+    <section id="pl_translations"></section>
+    <aside id="audio_controls">
+     <form>
+      <fieldset>
+       <legend>I'm learning:</legend>
+       <p><input type="checkbox" id="pl_l1" />
+        <label id="pl_ll1" for="pl_l1"></label></p>
+       <p><input type="checkbox" id="pl_l2" checked="" />
+        <label id="pl_ll2" for="pl_l2"></label></p>
+      </fieldset>
+     </form>
+    </aside>
+    <section id="pl_comments"></section>
+    <footer>
+     <p>Chat date: <time id="pl_date"></time></p>
+    </footer>
+   </article>
