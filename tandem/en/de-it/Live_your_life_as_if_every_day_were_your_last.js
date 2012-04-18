@@ -3,7 +3,7 @@
 Structural language learning and tandem method.
 A JavaScript computer program for coaching.
 
-Copyright (c) 2012 Antonio Bonifati http://ninuzzo.freehostia.com/about.html
+Copyright (c) 2012 Antonio Bonifati http://ninuzzo.github.com/about.html
 
 This work is licensed under the Creative Commons
 Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of
