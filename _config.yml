@@ -1,0 +1,1 @@
+exclude: [bin, FILES, Makefile, player.css, player.js, README, site.css, structure.css, tz_clock.js]
