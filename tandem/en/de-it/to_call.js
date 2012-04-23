@@ -13,7 +13,7 @@ California, 94041, USA.
 
 */
 
-var title='to call',
+var title='to call - part 1',
   date='2012-04-18', lk='en', l1='de', l2='it', lesson=
 [
  ['def', "you", "du", "tu", "English: both subject and object. Italian and German: only subject."],
@@ -27,7 +27,7 @@ var title='to call',
  ['def', ["I'm calling (up)", "I call (up)"], "ich rufe an", "chiamo", "To call (up) by phone or other media. German: 'an' always has the stress on itself and not on the following root word and separates from the verb, that is it goes at the end of the sentence."],
  ['tra', ["I'm calling you (up)", "I call you (up)"], "ich rufe dich an", ["ti chiamo", "chiamo te", "chiamo a te"]],
  ['def', "tomorrow", "morgen", "domani"],
- ['tra', ["I'm calling you (up) tomorrow", "I call you (up) tomorrow"], "ich rufe dich morgen an", ["ti chiamo domani", "domani ti chiamo"]],
+ ['tra', ["I'm calling you (up) tomorrow", "I call you (up) tomorrow"], ["ich rufe dich morgen an", "morgen rufe ich dich an"], ["ti chiamo domani", "domani, ti chiamo"], "Note that in German when you put morgen at the beginning, the verb always goes just after, as the second word. In other words, ich rufe gets inverted into rufe ich. The structure in incorrect English is: 'tomorrow call I you', not 'Tomorrow I call you'. It is a mistake to say 'morgen ich rufe dich an'."],
  ['def', "to stay", "bleiben", "stare", "bleib-en, st-are"],
  ['tra', "I", "ich", "io"],
  ['tra', ["I'm staying", "I stay"], "ich bleibe", "sto", "st-are &rarr; st-o"],
