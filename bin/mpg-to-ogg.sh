@@ -5,6 +5,6 @@ for file in "$@"; do
   dirname=$(dirname "$file")
   filename=$(basename "$file")
   filename=${filename%.*}
-  mpg123 -qw - "$file" | oggenc -Qo "$filename.ogg" -
+  lame --quiet --decode "$file" - | oggenc -Qo "$filename.ogg" -
 done
 
