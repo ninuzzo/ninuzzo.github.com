@@ -125,7 +125,7 @@ button {
 
 .in_a_row {
  float: left;
- margin-right: 1em;
+ margin: 1em 1em 1em 0;
 }
 
 .newline {
@@ -231,6 +231,17 @@ time {
  padding-left: .125em;
  padding-right: .125em;
 }
+
+.tumblr {
+ border-radius: 4px;
+ background: #ce2b37;
+ padding: 5px 10px 0 0;
+}
+
+.tumblr:hover {
+  opacity: 0.9;
+}
+
 
 /** Link style. **/
 
