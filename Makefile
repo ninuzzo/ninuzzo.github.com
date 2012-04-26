@@ -1,5 +1,5 @@
 css := site.css player.css
-js := player.js tz_clock.js
+js := player.js tz_clock.js sampa/de.js sampa/es.js sampa/it.js
 
 CSS := $(addprefix mini/,$(css))
 JS := $(addprefix mini/,$(js))

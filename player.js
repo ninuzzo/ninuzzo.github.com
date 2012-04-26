@@ -2,7 +2,7 @@
 
 Structural language learning and tandem method.
 A JavaScript computer program for coaching.
-Version of 14 Apr 2012.
+Version of 26 Apr 2012.
 
 Copyright (c) 2012 Antonio Bonifati http://ninuzzo.github.com/about.html
 
@@ -46,9 +46,9 @@ window.onload = function() {
 
   function main() {
     var step, steps = lesson.length, lname = {
-      // TODO: add other languages here.
-      de: 'German', es: 'Spanish', it: 'Italian'
-    };
+        // TODO: add other languages here.
+        de: 'German', es: 'Spanish', it: 'Italian'
+      }, audio_path = 'http://web.tiscali.it/insegnanteitaliano/audio';
 
     function format_iso_date(date) {
       var month_names = ['Jan', 'Feb', 'Mar', 'Apr', 'May',
@@ -129,8 +129,8 @@ window.onload = function() {
           // but Explorer does not still support it ATTOW
           var html = '', format = ['ogg','mp3'];
           for (var i = 0; i < 2; i++) {
-            html += '<source src="http://web.tiscali.it/insegnanteitaliano/audio/'
-              + lang + '/'
+            html += '<source src="' + audio_path + '/' + lang + '/'
+              + (audio ? audio + '/' : '')
               /* Windows NTFS forbids the following characters: " * : < > ? \ / |
                  Trim or replace the ones we happen to use,
                  for now only replace ? with Q */
@@ -353,19 +353,22 @@ window.onload = function() {
   } // main
 
   // Make sure the data file is loaded before the main player code.
-  var path = location.pathname, pos = path.lastIndexOf('/') + 1, tandem;
-  load_script(path.substr(pos, path.lastIndexOf('.') - pos) + '/'
-    + location.search.substring(1) + '.js', function () {
-    // Make sure the SAMPA files are loaded before the main player code.
-    load_script('sampa/' + l1 + '.js', function () {
-      tandem = typeof l2 != 'undefined';
-      if (tandem) {
-        load_script('sampa/' + l2 + '.js', main);
-      } else {
-        main();
-      }
-    });
-  }); // load_script
+  var path = location.pathname, search = location.search.substring(1),
+    pos = path.lastIndexOf('/') + 1, tandem, sampa_path = 'mini/sampa';
+  if (search != '') {
+    load_script(path.substr(pos, path.lastIndexOf('.') - pos) + '/'
+      + location.search.substring(1) + '.js', function () {
+      // Make sure the SAMPA files are loaded before the main player code.
+      load_script(sampa_path + '/' + l1 + '.js', function () {
+        tandem = typeof l2 != 'undefined';
+        if (tandem) {
+          load_script(sampa_path + '/' + l2 + '.js', main);
+        } else {
+          main();
+        }
+      });
+    }); // load_script
+  }
 }; // window.onload
 
 /* vim: set ft=javascript et ts=2 sw=2 ai si: */
