@@ -230,7 +230,7 @@ window.onload = function() {
             html += sentence;
           } else {
             var id = lang + i; // It just have to be unique in the page.
-            html += '<audio id="' + id + '"'
+            html += '<audio id="pl_' + id + '"'
               + (learning ? ' preload="auto"' : ' preload="none"')
               + '>' + audio_source(sentence) + '</audio><button onclick="pl_$(\''
               + id + "').play()\" title='" + pronunciation(lang, sentences[i])
