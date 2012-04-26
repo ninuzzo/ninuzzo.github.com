@@ -130,7 +130,7 @@ window.onload = function() {
           var html = '', format = ['ogg','mp3'];
           for (var i = 0; i < 2; i++) {
             html += '<source src="' + audio_path + '/' + lang + '/'
-              + (audio ? audio + '/' : '')
+              + (typeof audio != 'undefined' ? audio + '/' : '')
               /* Windows NTFS forbids the following characters: " * : < > ? \ / |
                  Trim or replace the ones we happen to use,
                  for now only replace ? with Q */
