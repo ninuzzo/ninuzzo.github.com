@@ -355,8 +355,8 @@ window.addEventListener('DOMContentLoaded', function() {
   } // main
 
   // Configuration begins:
-  //var audio_path = 'http://web.tiscali.it/insegnanteitaliano/audio',
-  var audio_path = 'http://localhost/ninuzzo/audio',
+  var audio_path = 'http://web.tiscali.it/insegnanteitaliano/audio',
+  //var audio_path = 'audio',
     sampa_path = 'mini/sampa';
   // end of configuration.
 
