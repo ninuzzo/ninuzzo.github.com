@@ -56,19 +56,19 @@
    http://stackoverflow.com/questions/7775594/css-list-style-image-size */
 
 #pl_translations [lang="en"] ul {
- list-style-image: url(/imgs/fotw/gb.png);
+ list-style-image: url(../imgs/fotw/gb.png);
 }
 
 #pl_translations [lang="de"] ul {
- list-style-image: url(/imgs/fotw/de.png);
+ list-style-image: url(../imgs/fotw/de.png);
 }
 
 #pl_translations [lang="es"] ul {
- list-style-image: url(/imgs/fotw/es.png);
+ list-style-image: url(../imgs/fotw/es.png);
 }
 
 #pl_translations [lang="it"] ul {
- list-style-image: url(/imgs/fotw/it.png);
+ list-style-image: url(../imgs/fotw/it.png);
 }
 
 /* TODO add other countries from here: http://hewgill.com/flags/ */
