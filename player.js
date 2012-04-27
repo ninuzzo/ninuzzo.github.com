@@ -26,7 +26,9 @@ function pl_$(id) {
 /* This is the only global variable, prefixed with pl_. */
 var pl_sampa = {};
 
-window.onload = function() {
+/* DOMContentLoaded fires when the document's DOM content is finished loading,
+   but unlike "load", does not wait until all images are loaded. */
+window.addEventListener('DOMContentLoaded', function() {
   // http://stackoverflow.com/questions/950087/include-javascript-file-inside-javascript-file
   function load_script(url, callback) {
     // Add a script tag to the head.
@@ -375,6 +377,6 @@ window.onload = function() {
       });
     }); // load_script
   }
-}; // window.onload
+}, false); // window.addEventListener
 
 /* vim: set ft=javascript et ts=2 sw=2 ai si: */
