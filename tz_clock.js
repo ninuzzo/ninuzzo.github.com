@@ -1,7 +1,7 @@
 /*
 
 Simple digital JavaScript clock and visitor-to-author time zone converter.
-Version of 15 Apr 2012.
+Version of 27 Apr 2012.
 
 Copyright (c) 2012 Antonio Bonifati http://ninuzzo.github.com/about.html
 
@@ -185,6 +185,22 @@ var tz_clock = {
       tz_clock.update_clocks();
       setInterval(function() { tz_clock.update_clocks(); }, 60000);
     }, (60 - this.visitor_dt.getSeconds()) * 1000);
+  },
+
+  // Standard time-zone difference explanation.
+  explain: function() {
+    document.write('Provided that your computer clock is right and corresponds to your physical location, ');
+    if (this.difference_string) {
+      document.write('your place is ' + this.difference_string
+        + ' than my place. For example, now it is <time id="tz_clock_visitor">'
+        + this.visitor_t + '</time> in your place and <time id="tz_clock_my">'
+        + this.my_t + '</time> in my place');
+    } else {
+      document.write('there is no time difference between your place and my place. In both places it is now <time id="tz_clock_visitor">'
+        + this.visitor_t + '</time>');
+    }
+    this.auto_update();
+    document.write('. All times are in 24-hour format. <span><a onclick="this.parentNode.innerHTML=this.innerHTML.replace(/\\.\\.\\./,\'\')+this.parentNode.childNodes[1].innerHTML" href="javascript:void(0)">If your computer clock is wrong...</a><span style="display:none"> set it right and if the previous clock is not updated automatically, <a href="javascript:document.location.reload(true)">reload this page</a>. If you changed your timezone, you may have to close and reopen your browser for this change to take effect into it.</span></span>');
   }
   // ... object code ends --
 }; // End of object literal.

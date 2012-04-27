@@ -25,23 +25,6 @@ tagline: thank you for choosing me
        src="http://mystatus.skype.com/smallclassic/antonio%2Ebonifati"
        width="114" height="20"/></a>
     </p>
-   <script src="mini/tz_clock.js"></script>
-   <p>Provided that your computer clock is right and corresponds to your
-    physical location,
-    <script>
-      with (tz_clock) {
-        if (difference_string) {
-          document.write('your place is ' + difference_string
-            + ' than my place. For example, now it is <time id="tz_clock_visitor">'
-            + visitor_t + '</time> in your place and <time id="tz_clock_my">'
-            + my_t + '</time> in my place');
-        } else {
-          document.write('there is no time difference between your place and my place. In both places it is now <time id="tz_clock_visitor">'
-            + visitor_t + '</time>');
-        }
-        auto_update();
-      }
-    </script>. All times are in 24-hour format. If your computer clock is
-     wrong, set it right and then <a
-     href="javascript:document.location.reload(true)">reload this page</a>.</p>
+    <script src="mini/tz_clock.js"></script>
+    <p><script>tz_clock.explain()</script></p>
    </article>
