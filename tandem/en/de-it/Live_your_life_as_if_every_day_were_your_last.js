@@ -49,7 +49,7 @@ var title='Live your life as if every day were your last',
  ['def', "as if", "als ob", "come se", "Introduces something contrary to reality. als wenn is correct too, but wenn is less used with als. Note b at the end of a word or syllable always sounds like p in German. P and b are articulated in almost the same way, German do this to save a vocal chord vibration."],
  ['tra', "Live your life as if everyday is your last", "lebe dein Leben als ob jeder Tag dein letzter ist", "vivi la tua vita come se ogni giorno è l'ultimo", "This is still missing the past subjunctive, needed both in German and in Italian. Note how german prefers to put ist at the end of the sentence. Italian is a SVO language (subject+verb+object), while German has often a SOV structure, especially when there are two verbs, the infinitive always goes to the end of the sentence."],
  ['def', "if I were", "wenn ich wäre", "se (io) fossi", "were and wäre are very similar."],
- ['def', "if you were", "wenn ich wärst", "se (tu) fossi"],
+ ['def', "if you were", "wenn du wärst", "se (tu) fossi"],
  ['def', "if he/she/it were", "wenn (er/sie/es) wäre", "se (lui/lei/esso) fosse"],
  ['tra', "Live your life as if everyday were your last", "lebe dein Leben als ob jeder Tag dein letzter wäre", "vivi la tua vita come se ogni giorno fosse l'ultimo"],
 ];
