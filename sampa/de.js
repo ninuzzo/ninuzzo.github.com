@@ -91,6 +91,7 @@ pl_sampa.de = {
   "jetzt": 'jEtst',
   "kann": 'kan',
   "kaufen": '"ka^Ufn',
+  "keiner": '"ka^In6',
   "komme": '"kOm@',
   "kommen": '"kOm@n',
   "kommt": 'kOmt',

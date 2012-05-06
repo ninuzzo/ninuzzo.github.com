@@ -65,6 +65,7 @@ pl_sampa.it = {
   "non": 'non',
   "normale": 'nor"male',
   "normalmente": 'normal"mente',
+  "nulla": '"nulla',
   "o": 'o',
   "oggi": '"OddZi',
   "opportunità": 'opportuni"ta',
