@@ -191,8 +191,16 @@ img, input[type="image"] {
  border: none;
 }
 
+section {
+ margin-top: .5em;
+}
+
 p {
  margin: 1.12em 0;
+}
+
+p.answer {
+ margin: 0 0 .375em 0;
 }
 
 button {
@@ -216,7 +224,7 @@ dd p {
  margin-top: 0;
 }
 
-em {
+em, i {
  font-style: italic;
 }
 
