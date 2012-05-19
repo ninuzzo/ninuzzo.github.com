@@ -2,7 +2,7 @@
 
 Structural language learning and tandem method.
 A JavaScript computer program for coaching.
-Version of 27 Apr 2012.
+Version of 19 Mag 2012.
 
 Copyright (c) 2012 Antonio Bonifati http://ninuzzo.github.com/about.html
 
@@ -51,6 +51,38 @@ window.addEventListener('DOMContentLoaded', function() {
         // TODO: add other languages here.
         de: 'German', es: 'Spanish', it: 'Italian'
       };
+
+    /* Basic lesson syntax check. In particular, warn if there are further
+       unused arguments in a slide, probably additional square brackets are
+       missing! If we */
+    function check_syntax() {
+      var error = [], errors;
+      for (var step = 1; step <= steps; step++) {
+        var slide = lesson[step - 1], type = slide[0], size;
+        switch (type) {
+          case 'tra':
+          case 'def':
+            size = tandem ? 5 : 4;
+          break;
+
+          case 'com':
+            size = 2;
+          break;
+
+          default:
+            error.push('Unknown slide type ' + type);
+            continue;
+        }
+        if (slide[size]) {
+          error.push('Unused argument on ' + type + ' slide #' + step);
+        }
+      }
+      if (errors = error.join("\n")) {
+        // It's better to open a warning box than logging on console.
+        // The latter could be easily ignored if there is no open console!
+        alert(errors);
+      }
+    }
 
     function format_iso_date(date) {
       var month_names = ['Jan', 'Feb', 'Mar', 'Apr', 'May',
@@ -282,7 +314,8 @@ window.addEventListener('DOMContentLoaded', function() {
         pl_$('last').disabled = false;
       }
 
-      // Update content.
+      // Update content. If you change slides format or add new slides,
+      // be sure to update check_syntax above to reflect your changes too!
       var slide = lesson[step-1], guess_mode;
       switch (slide[0]) {
         case 'tra':
@@ -306,11 +339,10 @@ window.addEventListener('DOMContentLoaded', function() {
         break;
 
         // TODO: implement other slide types here, if needed!
-
-        default:
-          console.warn('Unknown slide type ' + slide[0]);
       }
     }
+
+    check_syntax();
 
     // Attach events.
 
