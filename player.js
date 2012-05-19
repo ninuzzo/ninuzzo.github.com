@@ -195,7 +195,8 @@ window.addEventListener('DOMContentLoaded', function() {
           var sentence_sampa = '/', word = sentence.split(/\s+/);
           for (var i = 0; i < word.length; i++) {
             var word_sampa;
-            if (typeof (word_sampa = pl_sampa[lang][trim_punctuation(word[i])])
+            if (typeof (word_sampa
+                = pl_sampa[lang][trim_punctuation(word[i]).toLowerCase()])
               == 'undefined') {
               word_sampa = '?'; // Denotes a missing word pronunciation.
             }

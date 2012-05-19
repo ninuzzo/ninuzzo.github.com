@@ -14,7 +14,12 @@ California, 94041, USA.
 */
 
 /*
-JavaScript does not have a hash data type. We can use an object instead, but key searches are case sensitive. Fortunately, JavaScript string.toLowerCase() follows Unicode standards and can be used to make an object property lookup case-insensitive. For that to work, please write all keys in small letters, even if capital letters would be required in the original word (e.g. a proper name).
+JavaScript does not have a hash data type. We can use an object instead, but
+key searches are case sensitive. Fortunately, JavaScript string.toLowerCase()
+follows Unicode standards and can be used to make an object property lookup
+case-insensitive. For that to work, please write all keys in small letters,
+even if capital letters would be required in the original word (e.g. a proper
+name).
 
 http://stackoverflow.com/questions/3559070/are-there-dictionaries-in-javascript-like-python
 http://stackoverflow.com/questions/7700987/performance-of-key-lookup-in-javascript-object-hashing
