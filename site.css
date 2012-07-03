@@ -314,6 +314,7 @@ a:active {
 
 #top_menu li, .compact li, .compact form {
  display: inline; /* inline-block does not make the bottom borders to overlap! */
+ padding-right: .313em; /* space between inline list items (e.g. menu tabs) */
 }
 
 #top_menu a {

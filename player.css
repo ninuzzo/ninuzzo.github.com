@@ -19,6 +19,10 @@
  padding-right: 1.12em;
 }
 
+#pl_l1, #pl_l2 {
+ margin-right: .313em;
+}
+
 #pl_comments {
  clear: left;
 }
