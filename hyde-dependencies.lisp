@@ -25,6 +25,10 @@
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/top.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/player.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/includes/menu/tandems.lisp")
+ #P"/home/ant/sites/ninuzzo.github.com/site/faq.lisp"
+ (#P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/middle.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/top.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/default.lisp")
  #P"/home/ant/sites/new-ninuzzo.github.com/site/share.lisp"
  (#P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/middle.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/top.lisp"
@@ -49,11 +53,20 @@
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/top.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/player.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/includes/menu/tandems.lisp")
+ #P"/home/ant/sites/ninuzzo.github.com/site/demo.lisp"
+ (#P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/middle.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/top.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/default.lisp")
  #P"/home/ant/sites/new-ninuzzo.github.com/site/demo.lisp"
  (#P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/middle.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/top.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/default.lisp")
  #P"/home/ant/sites/new-ninuzzo.github.com/site/prova.lisp" NIL
+ #P"/home/ant/sites/ninuzzo.github.com/site/teaching.lisp"
+ (#P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/middle.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/top.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/player.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/includes/player.lisp")
  #P"/home/ant/sites/new-ninuzzo.github.com/site/contact.lisp"
  (#P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/middle.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/top.lisp"
@@ -73,6 +86,11 @@
  (#P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/middle.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/top.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/default.lisp")
+ #P"/home/ant/sites/ninuzzo.github.com/site/payments.lisp"
+ (#P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/middle.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/includes/top.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/layouts/default.lisp"
+  #P"/home/ant/sites/ninuzzo.github.com/site/includes/menu/payments.lisp")
  #P"/home/ant/sites/new-ninuzzo.github.com/site/donate.lisp"
  (#P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/middle.lisp"
   #P"/home/ant/sites/new-ninuzzo.github.com/site/layouts/includes/top.lisp"
