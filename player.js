@@ -2,7 +2,7 @@
 
 Structural language learning and tandem method.
 A JavaScript computer program for coaching.
-Version of 19 Mag 2012.
+Version of 15 Lug 2012.
 
 Copyright (c) 2012 Antonio Bonifati http://ninuzzo.github.com/about.html
 
@@ -153,7 +153,7 @@ window.addEventListener('DOMContentLoaded', function() {
         play_sound_queue(definitions);
       }
 
-      // Returns a list of sentences in the given language,
+      // Return a list of sentences in the given language,
       // optionally asking the user to guess before.
       function define(lang, sentences, guess_mode) {
         // Until Microsoft and Apple decide to support OGG,
@@ -165,6 +165,8 @@ window.addEventListener('DOMContentLoaded', function() {
           for (var i = 0; i < 2; i++) {
             html += '<source src="' + audio_path + '/' + lang + '/'
               + (typeof audio_dir != 'undefined' ? audio_dir + '/' : '')
+              /* Distribute files amongst subdirs for scalability. */
+              + sentence[0] + '/' + (sentence[1] ? sentence[1] + '/' : '')
               /* Windows NTFS forbids the following characters: " * : < > ? \ / |
                  Trim or replace the ones we happen to use,
                  for now only replace ? with Q */
@@ -388,8 +390,9 @@ window.addEventListener('DOMContentLoaded', function() {
   } // main
 
   // Configuration begins:
-  var audio_path = 'http://web.tiscali.it/insegnanteitaliano/audio',
-  //var audio_path = 'audio',
+  // Example of configuring an external site for serving audio files:
+  //var audio_path = 'http://host/path/audio',
+  var audio_path = 'audio',
     sampa_path = 'mini/sampa';
   // end of configuration.
 
