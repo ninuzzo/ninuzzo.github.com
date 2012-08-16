@@ -19,8 +19,9 @@ pl_sampa.de = {
   /* To sort this list in VIM use :'a,.sort i assuming you have marked the
      first line with ma and the current line is the last. You can also select
      the list typing V on the first line, then G 3k and type :sort i */
-  "Abend": '"a:b@nt',
+  "abend": '"a:b@nt', // A
   "aber": '"a:b6',
+  "ah": 'a:',
   "alle": '"al@',
   "alles": '"al@s',
   "an": 'an',
@@ -28,8 +29,11 @@ pl_sampa.de = {
   "auch": 'a^Ux',
   "auf": 'a^Uf',
   "bald": 'balt',
-  "Beethoven": '"be:t%ho:f@n',
+  "beeile": 'b@"?a^Il@',
+  "beeilen": 'b@"?a^Il@n',
+  "beethoven": '"be:t%ho:f@n', // B
   "beschäftigt": '%b@"SEftICt',
+  "besser": '"bEs6',
   "besten": '"bEst@n',
   "bin": 'bIn',
   "bitte": 'bIt@',
@@ -55,11 +59,15 @@ pl_sampa.de = {
   "es": 'Es',
   "essen": '"Esn',
   "etwas": '"Etvas',
+  "fallen": '"fal@n',
   "falsch": 'falS',
   "fertig": '"fE6tIC',
   "finden": '"fIndn',
-  "Freund": '"frO^Int',
-  "Freunde": '"frO^Ind@',
+  "freund": '"frO^Int', // F
+  "freunde": '"frO^Ind@', // F
+  "fühle": '"fy:l@',
+  "fühlen": '"fy:l@n',
+  "fühlt": 'fy:lt',
   "für": 'fy:@',
   "ganz": 'gants',
   "gebe": '"ge:b@',
@@ -68,20 +76,20 @@ pl_sampa.de = {
   "gehe": '"ge:@',
   "gehen": '"ge:@n',
   "geht": 'ge:t',
+  "geht's": 'ge:ts',
   "gern": 'gE6n',
   "gerne": '"gE6n@',
-  "Geschäft": 'g@"SEft',
+  "geschäft": 'g@"SEft', // G
   "gibt": 'gi:pt',
-  "Gut": '"gu:t',
-  "gut": 'gu:t',
+  "gut": 'gu:t', // G, g
   "guten": '"gu:t(@)n',
   "hab's": 'haps',
   "habe": '"ha:b@',
   "haben": '"ha:b(@)n',
-  "Haus": 'ha^Us',
-  "Hause": '"ha^Us@',
+  "haus": 'ha^Us', // H
+  "hause": '"ha^Us@', // H
   "her": 'he:^6',
-  "Herr": 'hE6',
+  "herr": 'hE6', // H
   "heute": '"hOIt@',
   "hier": 'hi:^6',
   "hierher": '"hi:^6"he:6,hi:^6"he:6,"hi:^6he:6',
@@ -89,7 +97,7 @@ pl_sampa.de = {
   "hören": '"h2:r@n',
   "ich": 'IC',
   "ihn": 'i:n',
-  "Ihnen": '"i:n(@)n',
+  "ihnen": '"i:n(@)n',
   "ist": 'Ist',
   "ja": 'ja:',
   "jetzt": 'jEtst',
@@ -103,14 +111,14 @@ pl_sampa.de = {
   "kommt": 'kOmt',
   "können": '"k9n@n',
   "lange": 'laN@',
-  "Leid": 'la^It',
+  "leid": 'la^It', // L
   "leiden": '"la^Id@n',
   "leider": '"la^Id6',
   "lernen": '"lE6n@n',
   "liebe": '"li:b@',
   "lieben": '"li:b@n',
   "mag": 'ma:k',
-  "Meer": 'me:^6',
+  "meer": 'me:^6', // M
   "mehr": 'me:^6',
   "mein": 'ma^In',
   "meine": '"ma^In@',
@@ -118,10 +126,9 @@ pl_sampa.de = {
   "mir": 'mi:@',
   "mit": 'mIt',
   "mittel": '"mItl',
-  "Mittelmeer": '"mIt@lme:^6',
-  "Morgen": '"mO6g(@)n',
-  "morgen": '"mO6g(@)n',
-  "Musik": 'mU"zi:k,"mUzik',
+  "mittelmeer": '"mIt@lme:^6', // M
+  "morgen": '"mO6g(@)n', // M, m
+  "musik": 'mU"zi:k,"mUzik', // M
   "muss": 'mUs',
   "möchte": '"m9Ct@',
   "mögen": '"m2:g(@)n',
@@ -143,17 +150,18 @@ pl_sampa.de = {
   "sehen": '"ze:@n',
   "sehr": 'ze:6',
   "sein": 'za^In',
+  "sich": 'zIC',
   "sie": 'zi:',
   "sind": 'zInt',
   "so": 'zo:',
   "stehen": '"Ste:@n',
-  "Tag": 'ta:k',
+  "tag": 'ta:k', // T
   "teuer": '"tO^i6',
   "trinken": '"trINkn',
   "tue": '"tu:@',
   "tun": 'tu:n',
   "tut": 'tu:t',
-  "Uhr": 'u:^@',
+  "uhr": 'u:^@', // U
   "um": 'Um',
   "und": 'Unt',
   "unmöglich": '"Unm2:klIC',
@@ -162,21 +170,24 @@ pl_sampa.de = {
   "verstehe": 'fE6"Ste:@',
   "verstehen": 'fE6"Ste:@n',
   "viel": 'fi:l',
+  "vielen": '"fi:l@n',
   "wahr": 'va:6',
   "wann": 'van',
   "warten": '"va6t(@)n',
   "warum": 'va"rUm',
   "was": 'vas',
-  "Wasser": '"vas6',
+  "wasche": '"vaS@',
+  "waschen": '"vaSn',
+  "wasser": '"vas6', // W
   "weiß": 'va^Is',
-  "Weißwein": '"va^Is%va^In',
+  "weißwein": '"va^Is%va^In', // W
   "wenn": 'vEn',
   "werde": '"ve:^6d@,"vE6d@',
   "werden": '"ve:^6dn,"vE6dn',
   "wie": 'vi:',
   "wieder": '"vi:d6',
-  "Wiederhören": '"vi:d6%h2:r@n',
-  "Wiedersehen": '"vi:d6%ze:@n',
+  "wiederhören": '"vi:d6%h2:r@n', // W
+  "wiedersehen": '"vi:d6%ze:@n', // W
   "will": 'vIl',
   "willkommen": 'vIl"kOm@n',
   "wir": 'vi:@',
