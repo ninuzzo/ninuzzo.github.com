@@ -26,12 +26,14 @@ pl_sampa.de = {
   "alles": '"al@s',
   "an": 'an',
   "ankommen": '"ankOm@n',
+  "anrufen": '"an%ru:fn',
   "auch": 'a^Ux',
   "auf": 'a^Uf',
   "bald": 'balt',
   "beeile": 'b@"?a^Il@',
   "beeilen": 'b@"?a^Il@n',
   "beethoven": '"be:t%ho:f@n', // B
+  "berlin": 'bE6"li:n', // B
   "beschäftigt": '%b@"SEftICt',
   "besser": '"bEs6',
   "besten": '"bEst@n',
@@ -50,21 +52,36 @@ pl_sampa.de = {
   "danke": '"daNk@',
   "das": 'das',
   "denn": 'dEn',
+  "der": 'de:6',
+  "deutsch": 'dO^ItS',
+  "deutschland": '"dO^ItSlant', // D
   "die": 'di:',
   "dort": 'dO6t',
   "dorthin": '"dO6thIn,"dO6t"hIn',
   "drüben": 'dry:b(@)n',
   "du": 'du:',
+  "ein": 'a^In',
+  "eine": '"a^In@',
+  "englisch": '"ENlIS', // E
   "er": 'e:6',
   "es": 'Es',
   "essen": '"Esn',
   "etwas": '"Etvas',
+  "fahre": '"fa:r@',
+  "fahren": '"fa:r@n',
   "fallen": '"fal@n',
   "falsch": 'falS',
   "fertig": '"fE6tIC',
   "finden": '"fIndn',
+  "frage": '"fra:g@', // F
+  "fragen": '"fra:g(@)n',
+  "freud": 'frO^It', // F
+  "freude": '"frO^Id@', // F
+  "freue": '"frO^I@',
+  "freuen": '"frO^I@n',
   "freund": '"frO^Int', // F
   "freunde": '"frO^Ind@', // F
+  "freut": 'frO^It',
   "fühle": '"fy:l@',
   "fühlen": '"fy:l@n',
   "fühlt": 'fy:lt',
@@ -77,12 +94,14 @@ pl_sampa.de = {
   "gehen": '"ge:@n',
   "geht": 'ge:t',
   "geht's": 'ge:ts',
+  "gelegenheit": 'g@"le:gnha^It', // G
   "gern": 'gE6n',
   "gerne": '"gE6n@',
   "geschäft": 'g@"SEft', // G
   "gibt": 'gi:pt',
   "gut": 'gu:t', // G, g
   "guten": '"gu:t(@)n',
+  "götterfunken": '"g2t@"fUNkn', // G
   "hab's": 'haps',
   "habe": '"ha:b@',
   "haben": '"ha:b(@)n',
@@ -98,11 +117,19 @@ pl_sampa.de = {
   "ich": 'IC',
   "ihn": 'i:n',
   "ihnen": '"i:n(@)n',
+  "immer": '"Im6',
+  "interessant": 'Int@rE"sant',
+  "interessiere": 'Int@rE"si:r@',
+  "interessieren": 'Int@rE"si:r@n',
+  "interessiert": 'Int@rE"si:^6t',
   "ist": 'Ist',
+  "italienisch": '%Ital"i^e:nIS', // I
   "ja": 'ja:',
   "jetzt": 'jEtst',
   "kann": 'kan',
   "kaufen": '"ka^Ufn',
+  "kein": 'ka^In',
+  "keine": '"ka^In@',
   "keiner": '"ka^In6',
   "koche": '"kOx@',
   "kochen": '"kOxn',
@@ -110,6 +137,7 @@ pl_sampa.de = {
   "kommen": '"kOm@n',
   "kommt": 'kOmt',
   "können": '"k9n@n',
+  "land": 'lant', // L
   "lange": 'laN@',
   "leid": 'la^It', // L
   "leiden": '"la^Id@n',
@@ -118,6 +146,7 @@ pl_sampa.de = {
   "liebe": '"li:b@',
   "lieben": '"li:b@n',
   "mag": 'ma:k',
+  "man": 'man',
   "meer": 'me:^6', // M
   "mehr": 'me:^6',
   "mein": 'ma^In',
@@ -133,6 +162,7 @@ pl_sampa.de = {
   "möchte": '"m9Ct@',
   "mögen": '"m2:g(@)n',
   "möglich": '"m2:klIC',
+  "möglichkeit": '"m2:klICka^It', // M
   "müde": 'my:d@',
   "müssen": '"mYsn',
   "nach": 'na:x',
@@ -140,20 +170,39 @@ pl_sampa.de = {
   "nicht": 'nICt',
   "nichts": 'nICts',
   "niemand": '"ni:mant',
+  "not": 'no:t', // N
+  "nötig": '"n2:tIC',
+  "oft": 'Oft',
+  "organisieren": 'OrganI"zi:r@n',
+  "problem": 'prO"ble:m', // P
   "rauche": '"ra^Ux@',
   "rauchen": '"ra^Ux(@)n',
+  "rufen": '"ru:fn',
   "sagen": '"za:g(@)n',
+  "sagt": 'za:kt',
   "schnell": 'SnEl',
   "schon": 'So:n',
   "schön": 'S2:n',
+  "schöner": '"S2:n6',
   "sehe": '"ze:@',
   "sehen": '"ze:@n',
   "sehr": 'ze:6',
   "sein": 'za^In',
   "sich": 'zIC',
   "sie": 'zi:',
+  "sigmund": '"zi:kmUnt', // S
   "sind": 'zInt',
   "so": 'zo:',
+  "soll": 'zOl',
+  "sollen": '"zOl@n',
+  "sollte": '"zOlt@',
+  "spezialisieren": 'SpEtsI^alI"zi:r@n',
+  "sprechen": '"SprECn',
+  "spät": 'SpE:t',
+  "später": '"SpE:t6',
+  "staat": 'Sta:t', // S
+  "staaten": '"Sta:t(@)n', // S
+  "stadt": 'Stat', // S
   "stehen": '"Ste:@n',
   "tag": 'ta:k', // T
   "teuer": '"tO^i6',
@@ -167,6 +216,7 @@ pl_sampa.de = {
   "unmöglich": '"Unm2:klIC',
   "uns": 'Uns',
   "verboten": 'fE^6"bo:tn',
+  "vereinigten": '%fE^6"a^InICt(@)n',
   "verstehe": 'fE6"Ste:@',
   "verstehen": 'fE6"Ste:@n',
   "viel": 'fi:l',
@@ -184,6 +234,7 @@ pl_sampa.de = {
   "wenn": 'vEn',
   "werde": '"ve:^6d@,"vE6d@',
   "werden": '"ve:^6dn,"vE6dn',
+  "wichtig": '"vICtIC',
   "wie": 'vi:',
   "wieder": '"vi:d6',
   "wiederhören": '"vi:d6%h2:r@n', // W
@@ -198,5 +249,7 @@ pl_sampa.de = {
   "wohin": '"vo:"hIn',
   "wollen": '"vOl@n',
   "wünschen": '"vYnS@n',
+  "zeit": 'tsa^It', // Z
+  "zeitung": 'tsa^ItUN', // Z
   "zu": 'tsu:',
 };
