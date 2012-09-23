@@ -28,7 +28,8 @@
          "Here,_there,_over_there,_there_is"))
        (li "Talking about likes and dislikes: "
         (a :href "tandem.html?en/de-it/likes_and_dislikes" "1st part"))
-       (li (a :href "tandem.html?en/de-it/shopping" "Shopping")))))
+       (li (a :href "tandem.html?en/de-it/shopping" "Shopping"))
+       (li (a :href "tandem.html?en/de-it/Scotland" "Scotland")))))
     (section
      (header
       (h1 :class "h3" "Sentence-based practising"))
