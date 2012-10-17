@@ -24,12 +24,14 @@ pl_sampa.de = {
   "abfahren": '"ap%fa:r@n',
   "abfahrt": '"ap%fa:^6t', // A
   "abholen": '"ap%ho:l@n',
+  "abstand": '"ap%Stant', // A
   "ah": 'a:',
   "alle": '"al@',
   "alles": '"al@s',
   "an": 'an',
   "ankommen": '"ankOm@n',
   "anlegen": '"an%le:gn',
+  "anmeldung": "'an%mEldUN", // A
   "anprobieren": '"anprobi:r@n',
   "anrufen": '"an%ru:fn',
   "anziehen": '"an%tsi:@n',
@@ -55,6 +57,8 @@ pl_sampa.de = {
   "beeile": 'b@"?a^Il@',
   "beeilen": 'b@"?a^Il@n',
   "beethoven": '"be:t%ho:f@n', // B
+  "begegnung": 'b@"ge:gnUN', // B
+  "begegnungen": 'b@"ge:gnUN@n', // B
   "bekommen": 'b@"kOm@n',
   "bequem": 'b@"kve:m',
   "berlin": 'bE6"li:n', // B
@@ -126,6 +130,8 @@ pl_sampa.de = {
   "fragen": '"fra:g(@)n',
   "frankfurt": '"fraNkfU^6t', // F
   "frau": 'fra^U', // F
+  "fremd": 'frEmt',
+  "fremdsprache": '"frEmt%Spra:x@', // F
   "freud": 'frO^It', // F
   "freude": '"frO^Id@', // F
   "freue": '"frO^I@',
@@ -138,6 +144,7 @@ pl_sampa.de = {
   "fühle": '"fy:l@',
   "fühlen": '"fy:l@n',
   "fühlt": 'fy:lt',
+  "füllen": '"fYl@n',
   "für": 'fy:@',
   "gang": 'gaN', // G
   "ganz": 'gants',
@@ -167,6 +174,7 @@ pl_sampa.de = {
   "hab's": 'haps',
   "habe": '"ha:b@',
   "haben": '"ha:b(@)n',
+  "halten": '"haltn',
   "hatte": '"hat@',
   "hatten": '"hatn',
   "hauptsache": '"ha^Upt%zax@', // H
@@ -181,6 +189,7 @@ pl_sampa.de = {
   "heute": '"hOIt@',
   "hier": 'hi:^6',
   "hierher": '"hi:^6"he:6,hi:^6"he:6,"hi:^6he:6',
+  "hin": 'hIn',
   "hinfahren": '"hIn%fa:r@n',
   "hingehen": '"hIn%ge:@n',
   "hoffe": '"hOf@',
@@ -218,6 +227,7 @@ pl_sampa.de = {
   "kommt": 'kOmt',
   "konnte": '"kOnt@',
   "konnten": '"kOntn',
+  "kurs": 'kU6s', // K
   "können": '"k9n@n',
   "könnte": '"k9nt@',
   "könnten": '"k9ntn',
@@ -273,6 +283,7 @@ pl_sampa.de = {
   "nehmen": '"ne:m@n',
   "nein": 'na^In',
   "nett": 'nEt',
+  "neusten": '"nO^Istn',
   "nicht": 'nICt',
   "nichts": 'nICts',
   "nie": 'ni:',
@@ -332,12 +343,15 @@ pl_sampa.de = {
   "sollen": '"zOl@n',
   "sollte": '"zOlt@',
   "spezialisieren": 'SpEtsI^alI"zi:r@n',
+  "sprache": '"Spra:x@', // S
   "sprechen": '"SprECn',
   "spät": 'SpE:t',
   "später": '"SpE:t6',
   "staat": 'Sta:t', // S
   "staaten": '"Sta:t(@)n', // S
   "stadt": 'Stat', // S
+  "stand": 'Stant',
+  "stand": 'Stant', // S
   "stehen": '"Ste:@n',
   "stellen": '"StEl@n',
   "stunde": '"StUnd@', // S

@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', function() {
   function main() {
     var step, steps = lesson.length, lname = {
         // TODO: add other languages here.
-        de: 'German', es: 'Spanish', it: 'Italian'
+        de: 'German', es: 'Spanish', it: 'Italian', la: 'Latin'
       };
 
     /* Basic lesson syntax check. In particular, warn if there are further
