@@ -44,6 +44,8 @@ pl_sampa.de = {
   "armee": 'a6"me:', // A
   "auch": 'a^Ux',
   "auf": 'a^Uf',
+  "aufgabe": '"a^Uf%ga:b@', // A
+  "aufgaben": '"a^Uf%ga:bn', // A
   "aufmachen": '"a^Uf%maxn',
   "aufschließen": '"auf%Sli:sn',
   "aus": 'a^Us',
@@ -79,6 +81,7 @@ pl_sampa.de = {
   "dahin": 'da"hIn,"dahIn',
   "dank": 'daNk',
   "danke": '"daNk@',
+  "daran": 'da"ran',
   "darauf": 'da"ra^Uf',
   "darf": 'da6f',
   "darunter": 'da"rUnt6',
@@ -90,6 +93,7 @@ pl_sampa.de = {
   "denken": '"dENkn',
   "denn": 'dEn',
   "der": 'de:6',
+  "deshalb": '"dEs"halp',
   "deutsch": 'dO^ItS',
   "deutschland": '"dO^ItSlant', // D
   "die": 'di:',
@@ -164,6 +168,7 @@ pl_sampa.de = {
   "geschlossen": 'g@"SlOs(ə)n',
   "geschäft": 'g@"SEft', // G
   "gestern": '"gEst6n',
+  "gewöhnen": 'g@"v2ːn@n',
   "gibt": 'gi:pt',
   "glas": 'gla:s', // G
   "glaube": '"gla^Ub@',
@@ -216,6 +221,7 @@ pl_sampa.de = {
   "jetzt": 'jEtst',
   "kann": 'kan',
   "kaufen": '"ka^Ufn',
+  "kaufmann": '"ka^Ufman', // K
   "kein": 'ka^In',
   "keine": '"ka^In@',
   "keiner": '"ka^In6',
@@ -245,6 +251,7 @@ pl_sampa.de = {
   "liebe": '"li:b@',
   "lieben": '"li:b@n',
   "liegen": '"li:g(@)n',
+  "lösen": '"l2:z@n',
   "lust": 'lUst', // L
   "mache": '"max@',
   "machen": '"maxn',
@@ -379,6 +386,8 @@ pl_sampa.de = {
   "unterm": '"Unt6m',
   "verboten": 'fE^6"bo:tn',
   "vereinigten": '%fE^6"a^InICt(@)n',
+  "vergessen": 'fE^6"gEsn',
+  "verlieren": 'fE^6"li:r@n',
   "verstehe": 'fE6"Ste:@',
   "verstehen": 'fE6"Ste:@n',
   "verstehst": 'fE^6"Ste:st',

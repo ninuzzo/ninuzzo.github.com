@@ -31,6 +31,7 @@ pl_sampa.it = {
      the list typing V on the first line, then G 3k and type :sort i */
   "a": 'a',
   "abile": '"abile',
+  "abituo": 'a"bituo',
   "adesso": 'a"dEsso',
   "amare": 'a"ma(:)re',
   "amerai": 'ame"rai',
@@ -40,8 +41,9 @@ pl_sampa.it = {
   "andando": 'an"dando',
   "assurdità": 'assurdi"ta',
   "attività": 'attivi"ta',
+  "avere": 'a"vere',
   "Beethoven": 'be"toven',
-  "bisogno": 'bi"zoNNo/',
+  "bisogno": 'bi"zoNNo',
   "Bonifati": 'boni"fa(:)ti',
   "broccoli": '"brOkkoli',
   "buono": '"bwOno',
