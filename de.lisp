@@ -30,7 +30,8 @@
         (a :href "tandem.html?en/de-it/likes_and_dislikes" "1st part"))
        (li (a :href "tandem.html?en/de-it/shopping" "Shopping"))
        (li (a :href "tandem.html?en/de-it/Scotland" "Scotland"))
-       (li (a :href "tandem.html?en/de-it/to_be_into" "To be into something")))))
+       (li (a :href "tandem.html?en/de-it/to_be_into" "To be into something"))
+       (li (a :href "tandem.html?en/de-it/dog" "Do not worry, the dog is good")))))
     (section
      (header
       (h1 :class "h3" "Sentence-based practising"))
