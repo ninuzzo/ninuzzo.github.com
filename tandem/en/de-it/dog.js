@@ -16,9 +16,9 @@ California, 94041, USA.
 var title='Do not worry, the dog is good',
   date='2012-11-01', lk='en', l1='de', l2='it', lesson=
 [
- ['def', "the dog", "der Hund", "il cane", "Like canine in English, which is canino in Italian."],
- ['def', "good", "gut", "buono", "Tasty, but also quiet."],
- ['def', "well", "gut", "bene", "In Italian you cannot use good for well. You can sometimes formally in English, but not in Italian. No problem in German, well and good are the same: gut."],
+ ['def', "the dog", "der Hund", "il cane", ["Italian: Cane is like canine in English, which is canino in Italian.", "German: Hund is like hunt in English. Indeed dogs have been extensively used for hunting."]],
+ ['def', "good", "gut", "buono", "Tasty, but also quiet, both meanings in all three languages."],
+ ['def', "well", "gut", "bene", "In Italian you cannot use good for well. You can sometimes formally in English (e.g. I'm good for I'm well), but not in Italian. No problem in German, well and good are the same: gut."],
  ['def', "is", "ist", "è"],
  ['def', "it is", "es ist", "è", "In Italian it is esso/essa. But it is often clear from the context who or what you are talking about and so we leave it out."],
  ['tra', "it is the dog", "es ist der Hund", "è il cane", "An answer to the question: what's that?, who made that noise?, etc."],
@@ -30,7 +30,8 @@ var title='Do not worry, the dog is good',
  ['def', "it is a bad action", "es ist eine schlechte Aktion", ["è una cattiva azione", "è una brutta azione"], ["German: ein-e and schlecht-e tell you that Aktion is die Aktion. Both words have to take the ending -e.", "brutt-a tells you that azione is feminine: la azione &rarr; l'azione. -e ending in Italian can be either masculine or feminine. Unlike endings -a and -o, it does not give you any hint. cattiva (evil, nasty) is more appropriate than brutta in this case, but the latter can also be accepted informally."]],
  ['def', "bad", "schlecht", ["cattivo", "cattiva", "brutto", "brutta"], "-a ending is for feminine in Italian, -o is for masculine, with a very few exceptions. Literally cattivo/a means more evil, while brutto is ugly, but brutto referred to an action, a deed cannot mean ugly, deeds are not beautiful or ugly. It will rather mean, figuratively, evil, as if ugliness would automatically imply wickedness, just like in fairy tales :)"],
  ['def', "not", "nicht", "non"],
- ['def', "yourself", "dir", "ti", "Italian: the long version is a te, but only used if you want to stress you: to you and not to someone else. If you do not need or want to stress you, te becomes ti, without a before."],
- ['tra', "don't worry", "mach dir keine Sorgen", "non ti preoccupare", ["Italian: (you) not yourself preoccupy.", "German: make to you no worry, not a worry: k-=not and -eine=a, so keine means: not a. You cannot use nicht, you have to use k-."]],
+ ['def', "yourself", "dir", ["ti", "a te"], "Italian: the long version is a te, but only used if you want to stress you: to you and not to someone else. If you do not need or want to stress you, te becomes ti, without a before."],
+ ['tra', "don't worry", "mach dir keine Sorgen", "non ti preoccupare", ["Italian: (you) not yourself preoccupy.", "German: make to you no worry, not a worry: k-=not and -eine=a, so keine means: not a. You cannot use nicht, you have to use k- to negate. The Italian grammatical sentence most similar to mach dir keine Sorgen is: non farti alcuna/nessuna preoccupazione. n-essuna corresponds to k- (n- of non, so it is a negation). Italian uses double negation when nessuna is used along with non. If you want to avoid a double negation, you can use alcuna (any) instead of nessuna. Alcuna does not contain any n-, so you use it along with non. For masculine you have alcuno/nessuno, of course."]],
+ ['tra', "I have no worries", "ich habe keine Sorgen", ["non ho alcuna preoccupazione", "non ho nessuna preoccupazione"], "Hint for Italian: (I) not have any worry, or: (I) not have no [no one] worry. Worries is used in English and German, but worry in Italian."],
  ['tra', "don't worry, the dog is good", "mach dir keine Sorgen, der Hund ist gut", "non ti preoccupare, il cane è buono"],
 ];
