@@ -19,6 +19,7 @@ pl_sampa.de = {
   /* To sort this list in VIM use :'a,.sort i assuming you have marked the
      first line with ma and the current line is the last. You can also select
      the list typing V on the first line, then G 3k and type :sort i */
+  "a": 'a:',
   "abend": '"a:b@nt', // A
   "aber": '"a:b6',
   "abfahren": '"ap%fa:r@n',
@@ -55,12 +56,14 @@ pl_sampa.de = {
   "ausziehen": '"a^Ustsi:@n',
   "auszug": 'ˈa^Ustsu:k', // A
   "autobahn": '"a^Uto%ba:n', // A
+  "b": 'be:',
   "bald": 'balt',
   "beeile": 'b@"?a^Il@',
   "beeilen": 'b@"?a^Il@n',
   "beethoven": '"be:t%ho:f@n', // B
   "begegnung": 'b@"ge:gnUN', // B
   "begegnungen": 'b@"ge:gnUN@n', // B
+  "begrüßen": 'b@"gry:sn',
   "bekommen": 'b@"kOm@n',
   "bequem": 'b@"kve:m',
   "berlin": 'bE6"li:n', // B
@@ -77,6 +80,10 @@ pl_sampa.de = {
   "brauchst": '"bra^Uxst',
   "bringen": '"brIN@n',
   "bringt": 'brINt',
+  "buchstabe": '"bu:x%Sta:b@', // B
+  "buchstabieren": '%bu:xSta"bi:r@n',
+  "c": 'tse:',
+  "d": 'de:',
   "da": 'da:',
   "dahin": 'da"hIn,"dahIn',
   "dank": 'daNk',
@@ -108,6 +115,7 @@ pl_sampa.de = {
   "durchziehen": '"dU6C%tsi:@n',
   "durchzug": '"dU6C%tsu:k', // D
   "dürfen": '"dY6f(@)n',
+  "e": 'e:',
   "ein": 'a^In',
   "eine": '"a^In@',
   "einfahrt": '"a^In%fa:^6t', // E
@@ -121,6 +129,7 @@ pl_sampa.de = {
   "es": 'Es',
   "essen": '"Esn',
   "etwas": '"Etvas',
+  "f": 'Ef',
   "fahre": '"fa:r@',
   "fahren": '"fa:r@n',
   "fallen": '"fal@n',
@@ -150,6 +159,7 @@ pl_sampa.de = {
   "fühlt": 'fy:lt',
   "füllen": '"fYl@n',
   "für": 'fy:@',
+  "g": 'ge:',
   "gang": 'gaN', // G
   "ganz": 'gants',
   "gebe": '"ge:b@',
@@ -173,9 +183,12 @@ pl_sampa.de = {
   "glas": 'gla:s', // G
   "glaube": '"gla^Ub@',
   "glauben": '"gla^Ub@n',
+  "gruß": 'gru:s', // G
+  "grüße": '"gry:s@', // G
   "gut": 'gu:t', // G, g
   "guten": '"gu:t(@)n',
   "götterfunken": '"g2t@"fUNkn', // G
+  "h": 'ha:',
   "hab's": 'haps',
   "habe": '"ha:b@',
   "haben": '"ha:b(@)n',
@@ -203,6 +216,7 @@ pl_sampa.de = {
   "hofmann": '"hOfman', // H
   "holen": '"ho:l@n',
   "hören": '"h2:r@n',
+  "i": 'i:',
   "ich": 'IC',
   "ihn": 'i:n',
   "ihnen": '"i:n(@)n',
@@ -213,12 +227,14 @@ pl_sampa.de = {
   "interessiert": 'Int@rE"si:^6t',
   "ist": 'Ist',
   "italienisch": '%Ital"i^e:nIS', // I
+  "j": 'jOt',
   "ja": 'ja:',
   "jahr": 'ja:^6', // J
   "jahre": '"ja:r@',
   "jahren": '"ja:r@n',
   "jemanden": '"je:mand@n',
   "jetzt": 'jEtst',
+  "k": 'ka:',
   "kann": 'kan',
   "kaufen": '"ka^Ufn',
   "kaufmann": '"ka^Ufman', // K
@@ -237,6 +253,7 @@ pl_sampa.de = {
   "können": '"k9n@n',
   "könnte": '"k9nt@',
   "könnten": '"k9ntn',
+  "l": 'El',
   "lampe": '"lamp@', // L
   "land": 'lant', // L
   "lange": 'laN@',
@@ -251,8 +268,9 @@ pl_sampa.de = {
   "liebe": '"li:b@',
   "lieben": '"li:b@n',
   "liegen": '"li:g(@)n',
-  "lösen": '"l2:z@n',
   "lust": 'lUst', // L
+  "lösen": '"l2:z@n',
+  "m": 'Em',
   "mache": '"max@',
   "machen": '"maxn',
   "mag": 'ma:k',
@@ -285,6 +303,7 @@ pl_sampa.de = {
   "müde": 'my:d@',
   "münchen": '"mYnC@n', // M
   "müssen": '"mYsn',
+  "n": 'En',
   "nach": 'na:x',
   "nachmittag": '"na:xmI%ta:k', // N
   "nehmen": '"ne:m@n',
@@ -298,11 +317,15 @@ pl_sampa.de = {
   "niemand": '"ni:mant',
   "not": 'no:t', // N
   "nötig": '"n2:tIC',
+  "o": 'o:',
   "oft": 'Oft',
   "organisieren": 'OrganI"zi:r@n',
+  "p": 'pe:',
   "polizei": '%poli"tsa^I,%pOlI"tsa^I', // P
   "probieren": 'pro"bi:r@n',
   "problem": 'prO"ble:m', // P
+  "q": 'ku:',
+  "r": 'E6',
   "rauche": '"ra^Ux@',
   "rauchen": '"ra^Ux(@)n',
   "rauf": 'ra^Uf',
@@ -322,6 +345,7 @@ pl_sampa.de = {
   "runterlegen": '"rUnt6%le:gn',
   "rüber": '"ry:b6',
   "rüberlegen": '"ry:b6%le:gn',
+  "s": 'Es',
   "sache": '"zax@', // S
   "sagen": '"za:g(@)n',
   "sagt": 'za:kt',
@@ -365,6 +389,7 @@ pl_sampa.de = {
   "stunden": '"StUndn', // S
   "suchen": '"zu:xn',
   "sympathisch": 'zYm"pa:tIS',
+  "t": 'te:',
   "tag": 'ta:k', // T
   "tage": '"ta:g@', // T
   "tagen": '"ta:gn', // T
@@ -375,6 +400,7 @@ pl_sampa.de = {
   "tun": 'tu:n',
   "tut": 'tu:t',
   "tür": 'ty:^6', // T
+  "u": 'u:',
   "uhr": 'u:^@', // U
   "um": 'Um',
   "umziehen": '"Umtsi:@n',
@@ -384,6 +410,7 @@ pl_sampa.de = {
   "uns": 'Uns',
   "unter": '"Unt6',
   "unterm": '"Unt6m',
+  "v": 'fa^U',
   "verboten": 'fE^6"bo:tn',
   "vereinigten": '%fE^6"a^InICt(@)n',
   "vergessen": 'fE^6"gEsn',
@@ -398,6 +425,8 @@ pl_sampa.de = {
   "vielen": '"fi:l@n',
   "vor": 'fo:^6',
   "vormittag": '"fo:^6mIta:k', // V
+  "vorstellen": '"fo:^6%StEl@n',
+  "w": 've:',
   "wahr": 'va:6',
   "wann": 'van',
   "war": 'va:^6',
@@ -414,6 +443,7 @@ pl_sampa.de = {
   "weggehen": '"vEkge:@n',
   "wehrmacht": '"ve:^6maxt', // W
   "weib": 'va^Ip', // W
+  "weil": 'va^Il',
   "wein": 'va^In', // W
   "weiß": 'va^Is',
   "weißwein": '"va^Is%va^In', // W
@@ -442,6 +472,9 @@ pl_sampa.de = {
   "wünschen": '"vYnS@n',
   "würde": '"vY6d@',
   "würden": '"vY6dn',
+  "x": 'Iks',
+  "y": '"YpsilOn',
+  "z": 'tsEt',
   "zehn": 'tse:n',
   "zeit": 'tsa^It', // Z
   "zeitung": 'tsa^ItUN', // Z
@@ -452,7 +485,11 @@ pl_sampa.de = {
   "zug": 'tsu:k', // Z
   "zumachen": '"tsu:%max(@)n',
   "zuschließen": '"tsu:%Sli:sn',
+  "ß": 'Es"tsEt',
+  "ä": 'E:',
   "ägypten": '%E"gYptn', // Ä
+  "ö": '2:',
+  "ü": 'y:',
   "über": '"y:b6',
   "überfahren": 'y:b6"fa:r@n',
   "überlegen": '%y:b6"le:g(@)n,"y:b6%le:g(@)n',
