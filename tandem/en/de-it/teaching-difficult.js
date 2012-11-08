@@ -17,7 +17,7 @@ var title='Teaching is difficult',
   date='2012-11-07', lk='en', l1='de', l2='it', lesson=
 [
  ['def', "the course is good", "der Kurs ist gut", "il corso è buono"],
- ['tra', "the German course is not good", "der Deutschkurs ist nicht gut", "il corso di tedesco non è buono", ["German: use compound word. der Deutsche kurs means: il corso tedesco.", "Italian: the course of German, genitive with preposition"]],
+ ['tra', "the German course is not good", "der Deutschkurs ist nicht gut", "il corso di tedesco non è buono", ["German: use compound word. der deutsche Kurs means: il corso tedesco.", "Italian: the course of German, genitive with preposition"]],
  ['def', "the German course is not so good", "der Deutschkurs ist nicht so gut", "il corso di tedesco non è molto/tanto buono", "Italian: not much good. so is così, but you only use it in a comparison (so/as... as)."],
  ['def', "it has to/must", "es muss", "deve", ["German: this is a handle and so it does not change", "Italian: dov-ere &rarr; (esso) d<i>e</i>v-e, the o is changed into e because dove means where and we want a different word."]],
  ['def', "it should", "es sollte", "dovrebbe"],
@@ -49,7 +49,7 @@ var title='Teaching is difficult',
  ['def', "I find myself", "ich finde mich", "mi trovo"],
  ['def', "the situation is difficult", "die Situation ist schwer", "la situazione è difficile"],
  ['def', "in the situation", "in der Situation", "nella situazione", "die Situation, but in the situation is: in to the situation in German, because in wants to, so the feminine die becomes der masculine. So: in die &rarr; in der and similarly in eine &rarr; in einer. But in die becomes in der only if die is the singular, in die plural instead becomes den: in den (neuen) Situationen, in (neuen) Situationen, nelle (nuove) situazioni, in (nuove) situazioni."],
- ['tra', "I find myself in a new situation", "ich mich in einer neuen Situation finde", "mi trovo in una situazione nuova", ["German: eine Situation, but in wants the masculine: einer. Since einer already has the strong ending -er, neuen takes the weak ending -en.", "Italian: not any situation which is new because I am just into it, but a NEW (quite special) situation. This is why new goes after situation and not before!"]],
+ ['tra', "I find myself in a new situation", "ich finde mich in einer neuen Situation", "mi trovo in una situazione nuova", ["German: eine Situation, but in wants the masculine: einer. Since einer already has the strong ending -er, neuen takes the weak ending -en.", "Italian: not any situation which is new because I am just into it, but a NEW (quite special) situation. This is why new goes after situation and not before!"]],
  ['tra', "when I find myself in a new situation I don't know what to do", "wenn ich mich in einer neuen Situation finde, ich weiß nicht, was zu tun ist", "quando mi trovo in una situazione nuova non so che (cosa)/cosa fare", "German: I know not, what to to do is, what it is to be made, what must be made."],
  ['def', "I know what I want to do, but I don't know where to begin", "ich weiß, was ich machen will, aber ich weiß nicht, wie es zu tun ist", "quanto a me, io so cosa voglio fare, ma non so come", ["This is a famous sentence by Sir Francis Bacon (Francesco Bacone). Translations are not litera, but you can know understand them.", "Italian: quanto is how much, but quanto a means: as of me, personally. The Italian translator chose to add this."]],
 ];
