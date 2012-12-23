@@ -6,6 +6,10 @@
   %content%
    (article :id "top_article"
     (inc "includes/menu/method.lisp")
+    (p (em "New")
+     ": Download my report &ldquo;A mnemonic method to teach languages&rdquo; in "
+     (a :href "language-teaching.pdf" "PDF") " or "
+     (a :href "language-teaching.abw" "Abiword") " format.")
     (p (em "NB")
      ": I have written this page because other teachers who exchanged languages with me got very interested in my ground-breaking teaching techniques. I am always open to share my ideas with anybody and accept thankfully any constructive criticism." (br)
      "Anyway, this is neither a comprehensive nor a scientific account of my teaching methods. I am not sure if such a report can ever be made. To see what I mean, if you are another teacher, try to do the same with "
