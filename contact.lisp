@@ -17,8 +17,8 @@
      (b :class "country" "Italy") (br)
      (span :class "tel" "Telephone: " (span :class "value" "+39-0981-26247"))
      (br) "Email: "
-     (a :class "email" :href "mailto:myname.mysurname@gmail.com"
-      "myname.mysurname@gmail.com") (br)
+     (script :src "mini/oe.js")
+     (canvas :id "jc6wQSIo7R7DM") (br)
      (a :href "http://www.skype.com" :target "_blank" "Skype") ": "
      (a :href "skype:antonio.bonifati?add" "antonio.bonifati") " "
      (script

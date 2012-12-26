@@ -38,6 +38,7 @@ pl_sampa.de = {
   "anziehen": '"an%tsi:@n',
   "anzug": '"antsu:k', // A
   "appetit": 'ape"ti:t', // A
+  "april": 'a"prIl', // A
   "arbeit": '"a6ba^It', // A
   "arbeite": '"a6ba^It@',
   "arbeiten": '"a6ba^Itn',
@@ -49,6 +50,7 @@ pl_sampa.de = {
   "aufgaben": '"a^Uf%ga:bn', // A
   "aufmachen": '"a^Uf%maxn',
   "aufschließen": '"auf%Sli:sn',
+  "august": 'a^U"ɡUst', // A
   "aus": 'a^Us',
   "ausfahrt": 'a^Us"fa:^6t', // A
   "ausgang": '"a^UsgaN', // A
@@ -95,6 +97,7 @@ pl_sampa.de = {
   "darüber": 'da"ry:b6',
   "das": 'das',
   "dass": 'das',
+  "dezember": 'de"tsEmb6',
   "dem": 'de:m',
   "denke": '"dENk@',
   "denken": '"dENkn',
@@ -119,6 +122,7 @@ pl_sampa.de = {
   "ein": 'a^In',
   "eine": '"a^In@',
   "einfahrt": '"a^In%fa:^6t', // E
+  "einverstanden": '"a^InfE^6%Standn',
   "eingang": '"a^IngaN', // E
   "eingeschlossen": '"a^Ing@%SlOsn',
   "einlegen": '"a^In%le:gn',
@@ -135,6 +139,7 @@ pl_sampa.de = {
   "fallen": '"fal@n',
   "falsch": 'falS',
   "fangen": '"faN@n',
+  "februar": '"fe:brua:^6', // F
   "fenster": '"fEnst6', // F
   "fertig": '"fE6tIC',
   "finden": '"fIndn',
@@ -220,6 +225,7 @@ pl_sampa.de = {
   "ich": 'IC',
   "ihn": 'i:n',
   "ihnen": '"i:n(@)n',
+  "im": 'Im',
   "immer": '"Im6',
   "interessant": 'Int@rE"sant',
   "interessiere": 'Int@rE"si:r@',
@@ -232,8 +238,11 @@ pl_sampa.de = {
   "jahr": 'ja:^6', // J
   "jahre": '"ja:r@',
   "jahren": '"ja:r@n',
+  "januar": '"janU^a:^6', // J
   "jemanden": '"je:mand@n',
   "jetzt": 'jEtst',
+  "juli": '"juːli', // J
+  "juni": '"juːni', // J
   "k": 'ka:',
   "kann": 'kan',
   "kaufen": '"ka^Ufn',
@@ -274,8 +283,10 @@ pl_sampa.de = {
   "mache": '"max@',
   "machen": '"maxn',
   "mag": 'ma:k',
+  "mai": 'ma^I', // M
   "man": 'man',
-  "Mann": 'man', // M
+  "mann": 'man', // M
+  "märz": 'mE6ts', // M
   "meer": 'me:^6', // M
   "mehr": 'me:^6',
   "mein": 'ma^In',
@@ -288,6 +299,7 @@ pl_sampa.de = {
   "mittag": '"mIta:k', // M
   "mittel": '"mItl',
   "mittelmeer": '"mIt@lme:^6', // M
+  "monat": "mo:nat", // M
   "morgen": '"mO6g(@)n', // M, m
   "musik": 'mU"zi:k,"mUzik', // M
   "muss": 'mUs',
@@ -317,7 +329,9 @@ pl_sampa.de = {
   "niemand": '"ni:mant',
   "not": 'no:t', // N
   "nötig": '"n2:tIC',
+  "november": 'no"vEmb6', // N
   "o": 'o:',
+  "oktober": 'Ok"to:b6',
   "oft": 'Oft',
   "organisieren": 'OrganI"zi:r@n',
   "p": 'pe:',
@@ -350,6 +364,8 @@ pl_sampa.de = {
   "sagen": '"za:g(@)n',
   "sagt": 'za:kt',
   "sauber": '"za^Ub6',
+  "scheinen": '"Sa^In@n',
+  "scheint": '"Sa^Int',
   "schließe": '%Sli:s@',
   "schließen": '"Sli:sn',
   "schloss": 'SlOs', // S
@@ -365,6 +381,7 @@ pl_sampa.de = {
   "sehr": 'ze:6',
   "sein": 'za^In',
   "seit": 'za^It',
+  "september": 'zEp"tEmb6', // S
   "sich": 'zIC',
   "sie": 'zi:',
   "sigmund": '"zi:kmUnt', // S
@@ -373,6 +390,7 @@ pl_sampa.de = {
   "soll": 'zOl',
   "sollen": '"zOl@n',
   "sollte": '"zOlt@',
+  "sonne": '"zOn@', // S
   "spezialisieren": 'SpEtsI^alI"zi:r@n',
   "sprache": '"Spra:x@', // S
   "sprechen": '"SprECn',
@@ -415,6 +433,7 @@ pl_sampa.de = {
   "vereinigten": '%fE^6"a^InICt(@)n',
   "vergessen": 'fE^6"gEsn',
   "verlieren": 'fE^6"li:r@n',
+  "verstanden": 'fE^6"Standn',
   "verstehe": 'fE6"Ste:@',
   "verstehen": 'fE6"Ste:@n',
   "verstehst": 'fE^6"Ste:st',
@@ -492,6 +511,7 @@ pl_sampa.de = {
   "ü": 'y:',
   "über": '"y:b6',
   "überfahren": 'y:b6"fa:r@n',
+  "überhaupt": '%y:b6"ha^Upt',
   "überlegen": '%y:b6"le:g(@)n,"y:b6%le:g(@)n',
   "übermorgen": '"y:b6mO6g@n',
 };
