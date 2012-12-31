@@ -16,7 +16,7 @@
        (img :width 88 :height 31 :alt "Creative Commons License"
         :src "imgs/cc_by-nc-sa.png"))
       "This web site is copyrighted "
-      (a :href "about.html" :rel "author" "Antonio Bonifati")
+      (a :href "contact.html" :rel "author" "Antonio Bonifati")
       " 2012 and licensed under a "
       (a :rel "license" :target "_blank"
        :href "http://creativecommons.org/licenses/by-nc-sa/3.0/"

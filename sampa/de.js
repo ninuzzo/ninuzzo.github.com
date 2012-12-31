@@ -203,6 +203,7 @@ pl_sampa.de = {
   "hauptsache": '"ha^Upt%zax@', // H
   "haus": 'ha^Us', // H
   "hause": '"ha^Us@', // H
+  "hat": 'hat',
   "her": 'he:^6',
   "herauf": 'hE"ra^Uf',
   "heraus": 'hE"ra^Us',
@@ -331,6 +332,7 @@ pl_sampa.de = {
   "nötig": '"n2:tIC',
   "november": 'no"vEmb6', // N
   "o": 'o:',
+  "ob": 'Op',
   "oktober": 'Ok"to:b6',
   "oft": 'Oft',
   "organisieren": 'OrganI"zi:r@n',

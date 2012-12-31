@@ -15,7 +15,7 @@
      (|dic| "Dictionary" "http://ninuzzo.freehostia.com/ant_dictionary.html")
      (|tandem| "Tandems" "tandem-conditions.html")
      (|method| "My method" "method-to-students.html") (|contact| "Contact")
-     (|faq| "FAQ") (|about| "About me")) collect
+     (|faq| "FAQ") (|testimonials| "Testimonials")) collect
      (li
       (a :href
        (if url

@@ -20,7 +20,7 @@
         :src "imgs/cc_by-nc-sa.png"))
       "Structural language learning method. A JavaScript computer program for "
       (if %tandem% " tandem") " coaching by "
-      (a :href "about.html" :rel "author" "Antonio Bonifati")
+      (a :href "contact.html" :rel "author" "Antonio Bonifati")
       " is licensed under a "
       (a :rel "license" :target "_blank"
        :href "http://creativecommons.org/licenses/by-nc-sa/3.0/"
