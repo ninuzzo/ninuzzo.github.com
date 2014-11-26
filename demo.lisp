@@ -10,6 +10,9 @@
      (a :href "teaching.html?en/it/first"
       "my first lesson for all absolute beginners")
      ": some Italian loan words, cognates and correct vowel pronunciation.")
+    (p "And also the first few lessons of my intensive language course:
+     (a :href "teaching.html?en/it/intensive/01" "01") ", "
+     (a :href "teaching.html?en/it/intensive/02" "02"))
     (p "Other intermediate and advanced demo lessons will be available here at some near future date.")
     (p "I also run a "
      (a :href "tandem-conditions.html" "free language exchange programme")
