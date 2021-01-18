@@ -15,7 +15,7 @@
      (span :class "locality" "Castrovillari") " "
      (span :class "region" "CS") (br)
      (b :class "country" "Italy") (br)
-     (span :class "tel" "Telephone: " (span :class "value" "+39-351-9318399"))
+     (span :class "tel" "Telephone and Whatsapp: " (span :class "value" "+39-351-9318399"))
      (br) "Email and Google Hangouts: "
      (script :src "mini/oe.js")
      (canvas :id "jc6wQSIo7R7DM") (br)
