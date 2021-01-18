@@ -10,13 +10,13 @@
      ") — "
      (a :class "url" :href "http://ninuzzo.github.com/"
       "http://ninuzzo.github.com") (br)
-     (span :class "street-address" "Please ask for my current address by means of email") (br)
-     (span :class "postal-code" 0) " "
-     (span :class "locality" "because I wander Europe") " "
-     (span :class "region" "") (br)
-     (b :class "country" "") (br)
-     (span :class "tel" "Telephone: " (span :class "value" "Ditto"))
-     (br) "Email: "
+     (span :class "street-address" "Via Ernesto Moneta 11") (br)
+     (span :class "postal-code" 87012) " "
+     (span :class "locality" "Castrovillari") " "
+     (span :class "region" "CS") (br)
+     (b :class "country" "Italy") (br)
+     (span :class "tel" "Telephone: " (span :class "value" "+39-351-9318399"))
+     (br) "Email and Google Hangouts: "
      (script :src "mini/oe.js")
      (canvas :id "jc6wQSIo7R7DM") (br)
      (a :href "http://www.skype.com" :target "_blank" "Skype") ": "
