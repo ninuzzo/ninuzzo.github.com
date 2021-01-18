@@ -16,7 +16,10 @@
     (p "Other intermediate and advanced demo lessons will be available here at some near future date.")
     (p "I also run a "
      (a :href "tandem-conditions.html" "free language exchange programme")
-     " on this same site.")))
+     " on this same site.")
+    (iframe :width "560" :height "315" :src "https://www.youtube.com/embed/ooUMpGyk1Ww" :frameborder "0"
+     :allow "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     :allowfullscreen)))
 
  (echo
   (inc "layouts/default.lisp")))
